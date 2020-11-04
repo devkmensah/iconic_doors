@@ -1,0 +1,57 @@
+/*Color Variables Start */
+:root {
+    --green1: #67854A;
+    --green2: #718C49;
+    --green3: #95A617;
+    --green4: #67854A;
+
+    --brown1: #735645;
+    --brown2: #C2B7A0;
+    --brown3: #C1BA9E;
+    --brown4: #BFB79F;
+    --brown5: #D9C7B8;
+    --brown6: #592C12;
+    --brown7: #735443;
+    --brown8: #8C7365;
+    --brown9: #715540;
+    --brown10: #D98566;
+    --brown11: #D98D62;
+    --white: #ffffff;
+    --light-blue: #4C6180;
+}
+
+/*Color Variables End */
+
+body {
+    background: var(--white);
+    /* font-family: 'Open Sans', sans-serif; */
+font-family: 'Roboto', sans-serif;
+}
+
+/* Header Section Starts */
+/* Contact Header Starts */
+#header .contact-header {
+    background: var(--brown1);
+    color: var(--white);
+    /* padding: 15px 0 10px; */
+}
+
+#header .contact-header .get-quote {
+    letter-spacing: 4px;
+    font-size: 22px;
+    /* color: #1c1c1c; */
+    color: #0c0c0c;
+    font-family: 'Oswald', sans-serif;
+}
+
+#header .contact-header .contact-contents .contact-ways {
+  background: rgba(0,0,0,0.2);
+  border-radius: 3px;
+  padding: 4px 7px 7px;
+}
+
+#header .contact-header .contact-contents .contact-ways .fas{
+  font-size: 22px;
+}
+/* Contact Header Ends */
+/* Header Section Ends */
