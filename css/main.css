@@ -28,9 +28,12 @@
 
 body {
     background: var(--white);
-    /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Roboto', sans-serif;
 }
+
+/* button:focus{
+    outline: none;
+} */
 
 /* Header Section Starts */
 /* Top Header Starts */
@@ -61,8 +64,9 @@ body {
 /* Header Navigation Starts */
 #header #nav-header {
     background: #fff;
-    box-shadow: 2px 0px 5px var(--green4);
+    box-shadow: 2px 1px 5px var(--green4);
     opacity: 0.8;
+    z-index: 1;
 }
 
 /* Logo Starts */
@@ -132,3 +136,124 @@ body {
 /* Menu Items End */
 /* Header Navigation Ends */
 /* Header Section Ends */
+
+
+/* Main Area Starts */
+/* Consultation Starts */
+#consultation {
+    background: url('../images/door26.jpg') no-repeat center center/cover;
+    position: relative;
+}
+
+#consultation::after {
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    /* background-color: rgb(184, 180, 180);
+    opacity: 0.5; */
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#consultation * {
+    z-index: 1;
+}
+
+/* Consultation Message Starts */
+#consultation .consultation-message h1 {
+    color: var(--white);
+    font-size: 4.2rem;
+}
+/* Consultation Message Ends */
+
+/* Consultation Form Starts */
+#consultation .consultation-form {
+    background: transparent;
+    margin: 5rem 0;
+}
+
+#consultation .consultation-form form {
+    margin: 0 auto;
+    width: 85%;
+    background: radial-gradient(circle at 60% 12%,
+            #67854A 60%,
+            /* #29351d 12% */
+            /* #334225 12% */
+            /* #3d4f2c 12% */
+            /* #485d33 12% */
+            /* #526a3b 12% */
+            #5c7742 12%);
+}
+
+#consultation .consultation-form form .schedule {
+    font-size: 2rem;
+}
+
+#consultation .consultation-form form .schedule,
+#consultation .consultation-form form label {
+    color: var(--white);
+}
+
+#consultation .consultation-form form input {
+    padding: 1.2rem 0.5rem;
+    border: 1px solid transparent;
+}
+
+#consultation .consultation-form form input:focus {
+    outline: none;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01) inset, 0 0 150px rgba(126, 239, 104, 0.6);
+    border: 1px solid transparent;
+}
+
+#consultation .consultation-form form button {
+    background: var(--dark1);
+    color: var(--white);
+    font-size: 14px;
+    padding: 0.6rem 1rem;
+    letter-spacing: 1.2px;
+    transition: .35s ease-in-out;
+}
+
+#consultation .consultation-form form button:focus {
+    outline: none;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01) inset, 0 0 150px rgba(126, 239, 104, 0.6);
+    border: 1px solid transparent;
+}
+
+#consultation .consultation-form form button:hover {
+    background: var(--white);
+    color: var(--dark1);
+    border: 1px solid var(--dark1);
+}
+/* Consultation Form Ends */
+
+/* Consultation Ends */
+/* Main Area Ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries Start */
+@media screen and (max-width: 991px) {
+    #consultation .consultation-form form {
+        width: 100%;
+    }
+}
+
+/* Media Queries End */
