@@ -29,11 +29,15 @@
 body {
     background: var(--white);
     font-family: 'Roboto', sans-serif;
+    color: var(--ash);
 }
 
-/* button:focus{
-    outline: none;
-} */
+.faint-text{
+    font-size: 1.2rem;
+   font-weight: 300;
+}
+
+
 
 /* Header Section Starts */
 /* Top Header Starts */
@@ -141,7 +145,7 @@ body {
 /* Main Area Starts */
 /* Consultation Starts */
 #consultation {
-    background: url('../images/door26.jpg') no-repeat center center/cover;
+    background: url('../images/home_door.jpg') no-repeat center center/cover;
     position: relative;
 }
 
@@ -167,6 +171,7 @@ body {
     color: var(--white);
     font-size: 4.2rem;
 }
+
 /* Consultation Message Ends */
 
 /* Consultation Form Starts */
@@ -228,9 +233,182 @@ body {
     color: var(--dark1);
     border: 1px solid var(--dark1);
 }
-/* Consultation Form Ends */
 
+/* Consultation Form Ends */
 /* Consultation Ends */
+
+/* Full Services List Starts */
+/* Service Header Starts */
+#full-service .service-content .header {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--dark1);
+}
+
+#full-service .service-content .underline {
+    background: var(--green4);
+    height: 4px;
+    width: 615px;
+    margin: 0 auto 0 0;
+}
+
+#full-service .service-content .service-message {
+   font-size: 1.2rem;
+   font-weight: 300;
+}
+
+#full-service .service-content .first-logo {
+   font-family: 'Syne Mono', monospace;
+   text-transform: uppercase;
+}
+
+#full-service .service-content .last-logo {
+    font-family: 'Syne Mono', monospace;
+    text-transform: uppercase;
+    color: var(--green4);
+}
+/* Service Header Ends */
+
+/* Products Wrapper Starts */
+#full-service .product-wrapper .our-products{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--dark1);
+}
+
+#full-service .product-wrapper .our-products .dash{
+    font-weight: 100;
+}
+
+/* Product Boxes Start */
+#full-service .product-wrapper #product-boxes .box{
+    transition: transform .65s ease-in-out;
+}
+
+#full-service .product-wrapper #product-boxes .box:hover{
+    transform: scale(1.02);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.14);
+}
+/* Product Boxes End */
+
+/* Product Button Starts */
+#full-service .product-wrapper .product-btn{
+    border-radius: 10px 10px 0 10px;
+     border: 1px solid var(--dark1);
+     color: var(--dark1);
+     padding: 0.6rem 1.8rem;
+     font-size: 1.3rem;
+     letter-spacing: 1.2px;
+     transition: .45s ease-in-out;
+ }
+ 
+ #full-service .product-wrapper .product-btn:hover{
+     background: var(--dark1);
+     color: var(--white);
+ }
+ 
+ #full-service .product-wrapper .product-btn:focus{
+   outline: none;
+ box-shadow: 1px solid var(--dark1);
+ }
+ 
+ #full-service .product-wrapper .product-btn .fas{
+   margin-left: 35px;
+ }
+ /* Product Service Button Ends */
+/* Products Wrapper Ends */
+/* Full Services List Ends */
+
+/* Steps Start */
+#steps{
+  margin-top: 100px;
+}
+
+#steps .steps{
+    background: radial-gradient(circle at 60% 12%,
+    #67854A 60%,
+    #5c7742 12%);
+    border-radius: 50px 50px 0 0;
+    padding: 40px 0 100px;
+}
+
+
+/* Steps Header */
+#steps .steps-content .header{
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--white);
+}
+
+/* Steps Under Line */
+#steps .steps-content .underline{
+    background: var(--dark1);
+    height: 4px;
+    width: 450px;
+    margin: 0 auto 0 0;
+}
+
+/* Steps Column Starts */
+#steps .step-column{
+   color: var(--white);
+}
+
+#steps .step-column h4{
+font-size: 1.2rem;
+line-height: 1.6;
+}
+
+#steps .step-column .fas{
+   color: var(--dark1);
+   margin-right: 0.5rem;
+}
+/* Steps Column Endss */
+
+/* Steps Button Starts */
+#steps .steps-btn{
+    border-radius: 10px 10px 0 10px;
+    border: 1px solid var(--white);
+    color: var(--white);
+    padding: 0.6rem 1.8rem;
+    font-size: 1.3rem;
+    letter-spacing: 1.2px;
+    transition: .45s ease-in-out;
+}
+
+#steps .steps-btn:hover{
+    background: var(--white);
+    color: var(--dark1);
+}
+
+#steps .steps-btn:focus{
+    outline: none;
+ box-shadow: 1px solid var(--white);
+}
+
+#steps .steps-btn .fas{
+    margin-left: 35px;
+}
+/* Steps Button Ends */
+/* Steps End */
+
+
+ 
+
+ 
+ /* #full-service .product-wrapper .product-btn .fas{
+   margin-left: 35px;
+ } */
+/* Steps End */
+
+
+
+/* Location Starts */
+#location {
+    padding: 30px 0;
+} 
+/* Location Ends */
 /* Main Area Ends */
 
 
@@ -251,9 +429,27 @@ body {
 
 /* Media Queries Start */
 @media screen and (max-width: 991px) {
+
+    /* Consultation */
     #consultation .consultation-form form {
         width: 100%;
     }
+
+    /* Full Services List */
+    #full-service .service-content .underline {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* Steps */
+    #steps .steps-content .underline{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #steps .step-column{
+       text-align: center;
+     }
 }
 
 /* Media Queries End */
