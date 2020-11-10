@@ -240,7 +240,7 @@ body {
 #consultation .consultation-form form button:hover {
     background: var(--white);
     color: var(--dark1);
-    border: 1px solid var(--dark1);
+    /* border: 1px solid var(--dark1); */
 }
 
 /* Consultation Form Ends */
@@ -683,13 +683,13 @@ color: white;
 }
 
 /* Customer Service Starts */
-#custumer-service .service-header {
+#customer-service-reps .service-header {
     color: var(--dark1);
     font-size: 2.1rem;
     font-weight: 800;
 }
 
-#custumer-service .service-underline {
+#customer-service-reps .service-underline {
     background: var(--green4);
     height: 2px;
     width: 270px;
@@ -697,19 +697,87 @@ color: white;
     margin-bottom: 1rem;
 }
 
-#custumer-service h3 {
+#customer-service-reps h3 {
    font-size: 1.4rem;
 }
 
-#custumer-service a {
+#customer-service-reps a {
    color: var(--dark1);
 }
 
-#custumer-service a:hover {
+#customer-service-reps a:hover {
    color: var(--green4);
    text-decoration: none;
 }
 /* Customer Service Ends */
+
+
+
+/* Contacts Form Starts */
+/* #contacts-form .consultation-form {
+    background: transparent;
+    margin: 5rem 0;
+} */
+
+#contacts-form  {
+    background: radial-gradient(circle at 60% 12%,
+            var(--green4) 60%,
+            var(--green-5) 12%);
+            color: var(--white);
+}
+
+#contacts-form form .contact-us {
+    font-size: 3rem;
+}
+
+#contacts-form form .contacts-underline {
+    background: var(--white);
+    height: 2px;
+    width: 235px;
+    margin: 0 auto 1.8rem 0;
+}
+
+#contacts-form form input {
+    padding: 1.2rem 0.5rem;
+    border: 1px solid transparent;
+}
+
+#contacts-form form input:focus {
+    outline: none;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01) inset, 0 0 150px rgba(126, 239, 104, 0.6);
+    border: 1px solid transparent;
+}
+
+#contacts-form form button {
+    background: var(--dark1);
+    color: var(--white);
+    font-size: 14px;
+    padding: 0.6rem 3rem;
+    letter-spacing: 1.2px;
+    transition: .35s ease-in-out;
+}
+
+#contacts-form  form button:focus {
+    outline: none;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01) inset, 0 0 150px rgba(126, 239, 104, 0.6);
+    border: 1px solid transparent;
+}
+
+#contacts-form  form button:hover {
+    background: var(--white);
+    color: var(--dark1);
+}
+
+#contacts-form  form textarea {
+    border: 1px solid transparent;
+}
+
+#contacts-form  form textarea:focus {
+    outline: none;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01) inset, 0 0 150px rgba(126, 239, 104, 0.6);
+    border: 1px solid transparent;
+}
+/* Contacts Form Ends */
 /* CONTACTS PAGE ENDS */
 
 
@@ -751,6 +819,14 @@ color: white;
 
 @media screen and (max-width: 767px){
     #satisfaction .left-satisfaction .about-underline {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 310px){
+    /*CONTACT PAGE: CUSTOMER SERVICE REPS SECTION, CONTACTS-FORM SECTION */
+    #customer-service-reps .service-underline,  #contacts-form form .contacts-underline {
+        width: 100%;
         margin: 0 auto;
     }
 }
