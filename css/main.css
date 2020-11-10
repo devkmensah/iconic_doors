@@ -700,6 +700,15 @@ color: white;
 #custumer-service h3 {
    font-size: 1.4rem;
 }
+
+#custumer-service a {
+   color: var(--dark1);
+}
+
+#custumer-service a:hover {
+   color: var(--green4);
+   text-decoration: none;
+}
 /* Customer Service Ends */
 /* CONTACTS PAGE ENDS */
 
