@@ -714,16 +714,13 @@ color: white;
 
 
 /* Contacts Form Starts */
-/* #contacts-form .consultation-form {
-    background: transparent;
-    margin: 5rem 0;
-} */
-
 #contacts-form  {
     background: radial-gradient(circle at 60% 12%,
             var(--green4) 60%,
             var(--green-5) 12%);
             color: var(--white);
+            border-radius: 0 70px  ;
+            padding: 2rem 0;
 }
 
 #contacts-form form .contact-us {
