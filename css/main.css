@@ -147,7 +147,8 @@ body {
 
 
 /* Main Area Starts */
-/* Consultation Starts, About Home Page, Contacts Home Page */
+/* Consultation Starts */
+/* Consultation, About, Contacts & Products Home Page Background Image & Overlay Starts*/
 #consultation{
     background: url('../images/home_door.jpg') no-repeat center center/cover;
     position: relative;
@@ -163,6 +164,11 @@ body {
     position: relative;
 }
 
+#products{
+    background: url('../images/products/p15.png') no-repeat center center/cover;
+    position: relative;
+}
+
 #consultation::after,
 #about-home-page:after, #contacts:after {
     content: '';
@@ -175,8 +181,20 @@ body {
     right: 0;
 }
 
+#products:after  {
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+/* Consultation, About, Contacts & Products Home Page Background Image & Overlay Ends*/
+
 #consultation *,
-#about-home-page *, #contacts * {
+#about-home-page *, #contacts *, #products * {
     z-index: 1;
 }
 
@@ -776,6 +794,35 @@ color: white;
 }
 /* Contacts Form Ends */
 /* CONTACTS PAGE ENDS */
+
+ 
+/* PRODUCTS START */
+#products .products-top {
+    height: 500px;
+}
+
+#products h1 {
+    color: var(--white);
+    font-size: 4.2rem;
+    font-weight: 800;
+}
+
+/* Products-Content Starts */
+#products-content .internal-doors {
+   border-top: 10px solid var(--dark1);
+   border-bottom: 10px solid var(--dark1);
+}
+
+#products-content .content-header {
+    color: var(--dark1);
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+
+/* Products-Content Ends */
+
+/* PRODUCTS END */
 
 
 
