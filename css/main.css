@@ -796,7 +796,7 @@ color: white;
 /* CONTACTS PAGE ENDS */
 
  
-/* PRODUCTS START */
+/* Products Page Starts */
 #products .products-top {
     height: 500px;
 }
@@ -806,29 +806,30 @@ color: white;
     font-size: 4.2rem;
     font-weight: 800;
 }
+/* Products Page Ends */
 
-/* Products-Content Starts */
-/* Internal Doors Start */
-#products-content .internal-doors {
+/* External Products Content Starts */
+/* Header Starts */
+#products-content .product-header-wrapper {
    border-top: 10px solid var(--dark1);
    border-bottom: 10px solid var(--dark1);
 }
 
-#products-content .internal-header {
+#products-content .product-header {
     color: var(--dark1);
     font-size: 3rem;
     font-weight: 800;
 }
-/* Internal Doors End */
+/* Header Ends */
 
-/* Internal Doors Content Starts */
-#products-content .content-header {
+/* Left Content Starts */
+#products-content .left-content .content-header {
     color: var(--dark1);
     font-size: 2rem;
     font-weight: 600;
 }
-/* Internal Doors Btn Starts */
-#products-content .internal-btn {
+
+#products-content .content-btn {
     border-radius: 10px 10px 0 10px;
     border: 1px solid var(--dark1);
     color: var(--dark1);
@@ -838,23 +839,26 @@ color: white;
     transition: .45s ease-in-out;
 }
 
-#products-content .internal-btn:hover {
+#products-content .content-btn:hover {
     background: var(--dark1);
     color: var(--white);
 }
 
-#products-content .internal-btn:focus {
+#products-content .content-btn:focus {
     outline: none;
     box-shadow: 1px solid var(--dark1);
 }
 
-#products-content .internal-btn .fas {
+#products-content .content-btn .fas {
     margin-left: 35px;
 }
-/* Internal Doors Btn Ends */
-/* Internal Doors Content Ends */
 
-/* PRODUCTS END */
+#products-content .media-btn{
+    margin: 50px 0 3px;
+}
+/* Left Content Ends */
+/* External Products Content Ends */
+
 
 
 
