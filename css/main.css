@@ -58,6 +58,10 @@ body {
     padding: 4px 10px 7px;
 }
 
+#header .top-header .top-contents .contact-ways a{
+    color: var(--white);
+}
+
 #header .top-header .contact-contents .contact-ways .fas {
     font-size: 22px;
 }
