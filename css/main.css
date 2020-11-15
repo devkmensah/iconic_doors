@@ -165,7 +165,9 @@ body {
 }
 
 #products{
-    background: url('../images/products/p15.png') no-repeat center center / cover;
+    /* background: url('../images/products/p15.png') repeat center center / contain; */
+    /* background: url('../images/products/external/p1.jpg') repeat center center / contain; */
+    background: url('../images/products/external/door17.jpg') no-repeat center center / cover;
     position: relative;
 }
 
@@ -873,6 +875,7 @@ color: white;
 
 
 /* Media Queries Start */
+
 @media screen and (max-width: 991px) {
 
     /* Consultation */
@@ -903,12 +906,28 @@ color: white;
     }
 }
 
+@media screen and (max-width: 550px) {
+    /* Products Page */
+    #products{
+        background: url('../images/products/external/door17.jpg') no-repeat 80% 20% / cover;
+    }
+ 
+}
+
 @media screen and (max-width: 310px){
     /*CONTACT PAGE: CUSTOMER SERVICE REPS SECTION, CONTACTS-FORM SECTION */
     #customer-service-reps .service-underline,  #contacts-form form .contacts-underline {
         width: 100%;
         margin: 0 auto;
     }
+}
+
+@media screen and (min-width: 1128px) {
+        /* Products Page */
+    #products{
+        background: url('../images/products/external/door17.jpg') repeat center center / contain;
+    }
+ 
 }
 
 /* Media Queries End */
