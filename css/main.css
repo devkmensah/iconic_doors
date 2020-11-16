@@ -171,7 +171,7 @@ body {
 #products{
     /* background: url('../images/products/p15.png') repeat center center / contain; */
     /* background: url('../images/products/external/p1.jpg') repeat center center / contain; */
-    background: url('../images/products/external/door17.jpg') no-repeat center center / cover;
+    background: url('../images/products/external/product_bg.jpg') no-repeat center center / cover;
     position: relative;
 }
 
@@ -913,7 +913,7 @@ color: white;
 @media screen and (max-width: 550px) {
     /* Products Page */
     #products{
-        background: url('../images/products/external/door17.jpg') no-repeat 80% 20% / cover;
+        background: url('../images/products/external/product_bg.jpg') no-repeat 80% 20% / cover;
     }
  
 }
@@ -929,7 +929,7 @@ color: white;
 @media screen and (min-width: 1128px) {
         /* Products Page */
     #products{
-        background: url('../images/products/external/door17.jpg') repeat center center / contain;
+        background: url('../images/products/external/product_bg.jpg') repeat center center / contain;
     }
  
 }
