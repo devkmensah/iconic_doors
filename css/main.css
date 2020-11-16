@@ -58,7 +58,7 @@ body {
     padding: 4px 10px 7px;
 }
 
-#header .top-header .top-contents .contact-ways a{
+#header .top-header .top-contents .contact-ways a {
     color: var(--white);
 }
 
@@ -150,10 +150,10 @@ body {
 /* Header Section Ends */
 
 
-/* Main Area Starts */
+/* Main Starts */
 /* Consultation Starts */
 /* Consultation, About, Contacts & Products Home Page Background Image & Overlay Starts*/
-#consultation{
+#consultation {
     background: url('../images/home_door.jpg') no-repeat center center/cover;
     position: relative;
 }
@@ -163,12 +163,12 @@ body {
     position: relative;
 }
 
-#contacts{
+#contacts {
     background: url('../images/contacts/ct11.jpg') no-repeat center center/cover;
     position: relative;
 }
 
-#products{
+#products {
     /* background: url('../images/products/p15.png') repeat center center / contain; */
     /* background: url('../images/products/external/p1.jpg') repeat center center / contain; */
     background: url('../images/products/external/product_bg.jpg') no-repeat center center / cover;
@@ -176,7 +176,8 @@ body {
 }
 
 #consultation::after,
-#about-home-page:after, #contacts:after {
+#about-home-page:after,
+#contacts:after {
     content: '';
     position: absolute;
     background: rgba(0, 0, 0, 0.3);
@@ -187,7 +188,7 @@ body {
     right: 0;
 }
 
-#products:after  {
+#products:after {
     content: '';
     position: absolute;
     background: rgba(0, 0, 0, 0.1);
@@ -197,10 +198,13 @@ body {
     left: 0;
     right: 0;
 }
+
 /* Consultation, About, Contacts & Products Home Page Background Image & Overlay Ends*/
 
 #consultation *,
-#about-home-page *, #contacts *, #products * {
+#about-home-page *,
+#contacts *,
+#products * {
     z-index: 1;
 }
 
@@ -427,19 +431,387 @@ body {
 #steps .steps-btn .fas {
     margin-left: 35px;
 }
-
 /* Steps Button Ends */
 /* Steps End */
-
-
-
 
 /* Location Starts */
 #location {
     padding: 30px 0;
 }
-
 /* Location Ends */
+
+
+
+
+
+
+/* ABOUT PAGE STARTS */
+/* About Home Page Starts */
+#about-home-page .about-top {
+    height: 450px;
+}
+
+#about-home-page .about-top h1 {
+    color: var(--white);
+    font-size: 3.7rem;
+    font-weight: 800;
+}
+
+/* About Home Page Ends */
+
+/* Satisfaction Starts */
+/* #satisfaction {
+    box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.63);
+    -moz-box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.63);
+} */
+
+#satisfaction .left-satisfaction .about-header {
+    color: var(--dark1);
+    font-size: 2.1rem;
+    font-weight: 800;
+}
+
+#satisfaction .left-satisfaction .about-underline {
+    background: var(--green4);
+    height: 2px;
+    width: 137px;
+    margin: 0 auto 0 0;
+    margin-bottom: 1rem;
+}
+
+#satisfaction .right-satisfaction .counting {
+    color: var(--green4);
+    font-weight: 800;
+    font-size: 6.5rem;
+}
+
+#satisfaction .right-satisfaction .over {
+    color: var(--dark1);
+    font-size: 1.5rem;
+}
+
+#satisfaction .right-satisfaction .social {
+    list-style: none;
+}
+
+#satisfaction .right-satisfaction .social li {
+    margin: 0 0.3rem;
+    font-size: 3.5rem;
+    color: var(--dark1);
+    cursor: pointer;
+    transition: .35s ease-in-out;
+}
+
+#satisfaction .right-satisfaction .social li:hover {
+    transform: translateY(-5.0px);
+}
+
+/* Satisfaction Ends */
+
+/* Pride Starts */
+/* #pride { */
+/* background: radial-gradient(circle at 60% 12%,
+    var(--green4) 60%,
+    var(--green-5) 12%); */
+/* background: rgba(0, 0, 0, 0.09); */
+
+/* } */
+
+/* Left Pride  Starts */
+#pride {
+    background: url('../images/about/c1.jpg') no-repeat 20% 30% / cover;
+    position: relative;
+}
+
+#pride::before {
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#pride * {
+    z-index: 1;
+}
+
+#pride .left-pride {
+    background: var(--dark1);
+}
+
+#pride .left-pride .customer-service {
+    color: var(--white);
+    font-size: 2.2rem;
+}
+
+#pride .left-pride .stars {
+    /* color: #F8B708; */
+    color: var(--green4);
+    margin: 28px 0;
+}
+
+#pride .left-pride .star {
+    margin: 0 3px;
+    font-size: 2rem;
+}
+
+#pride .left-pride .reputation {
+    color: var(--white);
+    font-size: 1.5rem;
+}
+
+#pride .left-pride .experience {
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+#pride .left-pride .experience .years {
+    font-weight: 800;
+}
+
+#pride .left-pride .experience .experience-underline {
+    /* color: var(--white); */
+    background: var(--green4);
+    width: 100%;
+}
+
+/* #pride .left-pride  .experience .circle::before{
+content: "years";
+position: absolute;
+color: white;
+transform: rotate(20deg);
+} */
+
+/* #pride .left-pride  .experience .circle::after{
+content: "experience";
+position: absolute;
+color: white;
+} */
+
+/* #pride .left-pride  .experience .circle .year{
+ color: white;
+ font-weight: 800;
+ font-size: 2rem;
+ border: 2px solid white;
+ border-radius: 50%;
+ padding: 20px;
+} */
+/* Left Pride Ends */
+
+/* Right Pride Starts */
+#pride .right-pride .values i {
+    color: var(--green4);
+    font-size: 3.2rem;
+}
+
+/* #pride .right-pride .top-row *{
+    z-index: 1;
+} */
+
+#pride .right-pride .values h3 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: var(--white);
+    margin-top: 1.5rem;
+}
+
+#pride .right-pride .values p {
+    color: var(--white);
+}
+
+/* Right Pride Ends */
+/* Pride Ends */
+/* ABOUT PAGE Ends */
+
+
+
+
+
+/* CONTACTS PAGE STARTS */
+#contacts .contacts-top {
+    height: 450px;
+}
+
+#contacts .contacts-top h1 {
+    color: var(--white);
+    font-size: 3.7rem;
+    font-weight: 800;
+}
+
+/* Customer Service Starts */
+#customer-service-reps .service-header {
+    color: var(--dark1);
+    font-size: 2.1rem;
+    font-weight: 800;
+}
+
+#customer-service-reps .service-underline {
+    background: var(--green4);
+    height: 2px;
+    width: 270px;
+    margin: 0 auto 0 0;
+    margin-bottom: 1rem;
+}
+
+#customer-service-reps h3 {
+    font-size: 1.4rem;
+}
+
+#customer-service-reps a {
+    color: var(--dark1);
+}
+
+#customer-service-reps a:hover {
+    color: var(--green4);
+    text-decoration: none;
+}
+
+/* Customer Service Ends */
+
+
+
+/* Contacts Form Starts */
+#contacts-form {
+    background: radial-gradient(circle at 60% 12%,
+            var(--green4) 60%,
+            var(--green-5) 12%);
+    color: var(--white);
+    border-radius: 0 70px;
+    padding: 2rem 0;
+}
+
+#contacts-form form .contact-us {
+    font-size: 3rem;
+}
+
+#contacts-form form .contacts-underline {
+    background: var(--white);
+    height: 2px;
+    width: 235px;
+    margin: 0 auto 1.8rem 0;
+}
+
+#contacts-form form input {
+    padding: 1.2rem 0.5rem;
+    border: 1px solid transparent;
+}
+
+#contacts-form form input:focus {
+    outline: none;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01) inset, 0 0 150px rgba(126, 239, 104, 0.6);
+    border: 1px solid transparent;
+}
+
+#contacts-form form button {
+    background: var(--dark1);
+    color: var(--white);
+    font-size: 14px;
+    padding: 0.6rem 3rem;
+    letter-spacing: 1.2px;
+    transition: .35s ease-in-out;
+}
+
+#contacts-form form button:focus {
+    outline: none;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01) inset, 0 0 150px rgba(126, 239, 104, 0.6);
+    border: 1px solid transparent;
+}
+
+#contacts-form form button:hover {
+    background: var(--white);
+    color: var(--dark1);
+}
+
+#contacts-form form textarea {
+    border: 1px solid transparent;
+}
+
+#contacts-form form textarea:focus {
+    outline: none;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01) inset, 0 0 150px rgba(126, 239, 104, 0.6);
+    border: 1px solid transparent;
+}
+
+/* Contacts Form Ends */
+/* CONTACTS PAGE ENDS */
+
+
+/* Products Page Starts */
+#products .products-top {
+    height: 500px;
+}
+
+#products h1 {
+    color: var(--white);
+    font-size: 4.2rem;
+    font-weight: 800;
+}
+
+/* Products Page Ends */
+
+/* External Products Content Starts */
+/* Header Starts */
+#products-content .product-header-wrapper {
+    border-top: 10px solid var(--dark1);
+    border-bottom: 10px solid var(--dark1);
+}
+
+#products-content .product-header {
+    color: var(--dark1);
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+/* Header Ends */
+
+/* Left Content Starts */
+#products-content .left-content .content-header {
+    color: var(--dark1);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#products-content .content-btn {
+    border-radius: 10px 10px 0 10px;
+    border: 1px solid var(--dark1);
+    color: var(--dark1);
+    padding: 0.6rem 1.8rem;
+    font-size: 1.3rem;
+    letter-spacing: 1.2px;
+    transition: .45s ease-in-out;
+}
+
+#products-content .content-btn:hover {
+    background: var(--dark1);
+    color: var(--white);
+}
+
+#products-content .content-btn:focus {
+    outline: none;
+    box-shadow: 1px solid var(--dark1);
+}
+
+#products-content .content-btn .fas {
+    margin-left: 35px;
+}
+
+#products-content .media-btn {
+    margin: 50px 0 3px;
+}
+
+/* Left Content Ends */
+/* External Products Content Ends */
+/* Main  Ends */
+
+
+
+
+
+
 
 /* Footer Starts */
 #footer .footer-top {
@@ -494,6 +866,11 @@ body {
     padding: 0.39rem;
 }
 
+#footer .footer-top .details a {
+    color: var(--white);
+    text-decoration: none;
+}
+
 #footer .footer-top .about-us,
 .contact .details li:first-child {
     margin-top: 0;
@@ -509,378 +886,42 @@ body {
     color: var(--white);
 }
 
-/* Footer Ends */
-/* Main Area Ends */
-
-
-
-
-
-
-
-
-/* ABOUT PAGE STARTS */
-/* About Home Page Starts */
-#about-home-page .about-top {
-    height: 450px;
-}
-
-#about-home-page .about-top h1 {
-    color: var(--white);
-    font-size: 3.7rem;
-    font-weight: 800;
-}
-
-/* About Home Page Ends */
-
-/* Satisfaction Starts */
-/* #satisfaction {
-    box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.63);
-    -webkit-box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.63);
-    -moz-box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.63);
-} */
-
-#satisfaction .left-satisfaction .about-header {
-    color: var(--dark1);
-    font-size: 2.1rem;
-    font-weight: 800;
-}
-
-#satisfaction .left-satisfaction .about-underline {
+#footer .arrow-up {
     background: var(--green4);
-    height: 2px;
-    width: 137px;
-    margin: 0 auto 0 0;
-    margin-bottom: 1rem;
+    color: var(--white);
 }
 
-#satisfaction .right-satisfaction .counting{
-    color: var(--green4);
-    font-weight: 800;
-    font-size: 6.5rem;
-}
-
-#satisfaction .right-satisfaction .over{
-   color: var(--dark1);
-   font-size: 1.5rem;
-}
-
-#satisfaction .right-satisfaction .social{
-    list-style: none;
-}
-
-#satisfaction .right-satisfaction .social li{
-   margin: 0 0.3rem;
-   font-size: 3.5rem;
-   color: var(--dark1);
-   cursor: pointer;
-   transition: .35s ease-in-out;
-}
-
-#satisfaction .right-satisfaction .social li:hover{
-  transform: translateY(-5.0px);
-}
-/* Satisfaction Ends */
-
-/* Pride Starts */
-/* #pride { */
-    /* background: radial-gradient(circle at 60% 12%,
-    var(--green4) 60%,
-    var(--green-5) 12%); */
-/* background: rgba(0, 0, 0, 0.09); */
-    
-/* } */
-
-/* Left Pride  Starts */
-#pride{
-    background: url('../images/about/c1.jpg') no-repeat 20% 30% / cover;
+#footer .arrow-up .arrow-column .arrow-icon-contain {
     position: relative;
 }
 
-#pride::before{
-    content: '';
-    position: absolute;
-    background: rgba(0, 0, 0, 0.6);
-    width: 100%;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-#pride *{
-    z-index: 1;
- }
-
-#pride .left-pride{
-    background: var(--dark1);
-}
-
-#pride .left-pride  .customer-service{
+#footer .arrow-up .arrow-column .arrow-icon-contain .arrow-content {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
     color: var(--white);
-    font-size: 2.2rem;
+    text-align: center;
+    background: var(--green4);
+    border-radius: 50px;
+    height: 55px;
+    width: 55px;
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.14);
 }
 
-#pride .left-pride  .stars{
-    /* color: #F8B708; */
-    color: var(--green4);
-    margin: 28px 0;
+#footer .arrow-up .arrow-column .arrow-icon-contain .fas {
+    font-size: 30px;
+    margin: 2px 0 -4px;
 }
 
-#pride .left-pride  .star{
-  margin: 0 3px;
-  font-size: 2rem;
-}
-
-#pride .left-pride  .reputation{
-  color: var(--white);
-  font-size: 1.5rem;
-}
-
-#pride .left-pride  .experience{
-    color: var(--white);
+#footer .arrow-up .arrow-column .arrow-icon-contain .arrow-text {
     text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 0;
 }
 
-#pride .left-pride  .experience .years{
-   font-weight: 800;
-}
-
-#pride .left-pride  .experience .experience-underline{
-    /* color: var(--white); */
-    background: var(--green4);
-    width: 100%;
-}
-
-/* #pride .left-pride  .experience .circle::before{
-content: "years";
-position: absolute;
-color: white;
-transform: rotate(20deg);
-} */
-
-/* #pride .left-pride  .experience .circle::after{
-content: "experience";
-position: absolute;
-color: white;
-} */
-
-/* #pride .left-pride  .experience .circle .year{
- color: white;
- font-weight: 800;
- font-size: 2rem;
- border: 2px solid white;
- border-radius: 50%;
- padding: 20px;
-} */
-/* Left Pride Ends */
-
-/* Right Pride Starts */
-#pride .right-pride .values i{
-    color: var(--green4);
-    font-size: 3.2rem;
-}
-
-/* #pride .right-pride .top-row *{
-    z-index: 1;
-} */
-
-#pride .right-pride .values h3{
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  color: var(--white);
-  margin-top: 1.5rem;
-}
-
-#pride .right-pride .values p{
-  color: var(--white);
-}
-/* Right Pride Ends */
-/* Pride Ends */
-/* ABOUT PAGE Ends */
-
-
-
-
-
-/* CONTACTS PAGE STARTS */
-#contacts .contacts-top {
-    height: 450px;
-}
-
-#contacts .contacts-top h1 {
-    color: var(--white);
-    font-size: 3.7rem;
-    font-weight: 800;
-}
-
-/* Customer Service Starts */
-#customer-service-reps .service-header {
-    color: var(--dark1);
-    font-size: 2.1rem;
-    font-weight: 800;
-}
-
-#customer-service-reps .service-underline {
-    background: var(--green4);
-    height: 2px;
-    width: 270px;
-    margin: 0 auto 0 0;
-    margin-bottom: 1rem;
-}
-
-#customer-service-reps h3 {
-   font-size: 1.4rem;
-}
-
-#customer-service-reps a {
-   color: var(--dark1);
-}
-
-#customer-service-reps a:hover {
-   color: var(--green4);
-   text-decoration: none;
-}
-/* Customer Service Ends */
-
-
-
-/* Contacts Form Starts */
-#contacts-form  {
-    background: radial-gradient(circle at 60% 12%,
-            var(--green4) 60%,
-            var(--green-5) 12%);
-            color: var(--white);
-            border-radius: 0 70px  ;
-            padding: 2rem 0;
-}
-
-#contacts-form form .contact-us {
-    font-size: 3rem;
-}
-
-#contacts-form form .contacts-underline {
-    background: var(--white);
-    height: 2px;
-    width: 235px;
-    margin: 0 auto 1.8rem 0;
-}
-
-#contacts-form form input {
-    padding: 1.2rem 0.5rem;
-    border: 1px solid transparent;
-}
-
-#contacts-form form input:focus {
-    outline: none;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01) inset, 0 0 150px rgba(126, 239, 104, 0.6);
-    border: 1px solid transparent;
-}
-
-#contacts-form form button {
-    background: var(--dark1);
-    color: var(--white);
-    font-size: 14px;
-    padding: 0.6rem 3rem;
-    letter-spacing: 1.2px;
-    transition: .35s ease-in-out;
-}
-
-#contacts-form  form button:focus {
-    outline: none;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01) inset, 0 0 150px rgba(126, 239, 104, 0.6);
-    border: 1px solid transparent;
-}
-
-#contacts-form  form button:hover {
-    background: var(--white);
-    color: var(--dark1);
-}
-
-#contacts-form  form textarea {
-    border: 1px solid transparent;
-}
-
-#contacts-form  form textarea:focus {
-    outline: none;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01) inset, 0 0 150px rgba(126, 239, 104, 0.6);
-    border: 1px solid transparent;
-}
-/* Contacts Form Ends */
-/* CONTACTS PAGE ENDS */
-
- 
-/* Products Page Starts */
-#products .products-top {
-    height: 500px;
-}
-
-#products h1 {
-    color: var(--white);
-    font-size: 4.2rem;
-    font-weight: 800;
-}
-/* Products Page Ends */
-
-/* External Products Content Starts */
-/* Header Starts */
-#products-content .product-header-wrapper {
-   border-top: 10px solid var(--dark1);
-   border-bottom: 10px solid var(--dark1);
-}
-
-#products-content .product-header {
-    color: var(--dark1);
-    font-size: 3rem;
-    font-weight: 800;
-}
-/* Header Ends */
-
-/* Left Content Starts */
-#products-content .left-content .content-header {
-    color: var(--dark1);
-    font-size: 2rem;
-    font-weight: 600;
-}
-
-#products-content .content-btn {
-    border-radius: 10px 10px 0 10px;
-    border: 1px solid var(--dark1);
-    color: var(--dark1);
-    padding: 0.6rem 1.8rem;
-    font-size: 1.3rem;
-    letter-spacing: 1.2px;
-    transition: .45s ease-in-out;
-}
-
-#products-content .content-btn:hover {
-    background: var(--dark1);
-    color: var(--white);
-}
-
-#products-content .content-btn:focus {
-    outline: none;
-    box-shadow: 1px solid var(--dark1);
-}
-
-#products-content .content-btn .fas {
-    margin-left: 35px;
-}
-
-#products-content .media-btn{
-    margin: 50px 0 3px;
-}
-/* Left Content Ends */
-/* External Products Content Ends */
-
-
-
-
-
-
-
-
-
+/* Footer Ends */
 
 
 
@@ -912,34 +953,38 @@ color: white;
     }
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
     #satisfaction .left-satisfaction .about-underline {
         margin: 0 auto;
     }
 }
 
 @media screen and (max-width: 550px) {
+
     /* Products Page */
-    #products{
+    #products {
         background: url('../images/products/external/product_bg.jpg') no-repeat 80% 20% / cover;
     }
- 
+
 }
 
-@media screen and (max-width: 310px){
+@media screen and (max-width: 310px) {
+
     /*CONTACT PAGE: CUSTOMER SERVICE REPS SECTION, CONTACTS-FORM SECTION */
-    #customer-service-reps .service-underline,  #contacts-form form .contacts-underline {
+    #customer-service-reps .service-underline,
+    #contacts-form form .contacts-underline {
         width: 100%;
         margin: 0 auto;
     }
 }
 
 @media screen and (min-width: 1128px) {
-        /* Products Page */
-    #products{
+
+    /* Products Page */
+    #products {
         background: url('../images/products/external/product_bg.jpg') repeat center center / contain;
     }
- 
+
 }
 
 /* Media Queries End */
