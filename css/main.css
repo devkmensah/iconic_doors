@@ -5,21 +5,6 @@
     --dark1: #0c0c0c;
     --ash: #333;
     --white: #ffffff;
-    /* --brown6: #592C12; */
-    /* --brown9: #715540; */
-    /* --brown10: #D98566; */
-    /* --brown11: #D98D62; */
-
-    /* --blue: #18255a;
-    --brown1: #735645;
-    --brown2: #C2B7A0;
-    --brown3: #C1BA9E;
-    --brown4: #BFB79F;
-    --brown5: #D9C7B8;
-    --brown7: #735443;
-    --brown8: #8C7365; */
-    /* --light-blue: #4C6180; */
-
 }
 
 /*Color Variables End */
@@ -431,6 +416,7 @@ body {
 #steps .steps-btn .fas {
     margin-left: 35px;
 }
+
 /* Steps Button Ends */
 /* Steps End */
 
@@ -438,6 +424,7 @@ body {
 #location {
     padding: 30px 0;
 }
+
 /* Location Ends */
 
 
@@ -503,6 +490,10 @@ body {
     transition: .35s ease-in-out;
 }
 
+#satisfaction .right-satisfaction .social li a {
+    color: var(--dark1);
+}
+
 #satisfaction .right-satisfaction .social li:hover {
     transform: translateY(-5.0px);
 }
@@ -549,9 +540,8 @@ body {
 }
 
 #pride .left-pride .stars {
-    /* color: #F8B708; */
     color: var(--green4);
-    margin: 28px 0;
+    margin: 10px 0 40px;
 }
 
 #pride .left-pride .star {
@@ -579,27 +569,6 @@ body {
     width: 100%;
 }
 
-/* #pride .left-pride  .experience .circle::before{
-content: "years";
-position: absolute;
-color: white;
-transform: rotate(20deg);
-} */
-
-/* #pride .left-pride  .experience .circle::after{
-content: "experience";
-position: absolute;
-color: white;
-} */
-
-/* #pride .left-pride  .experience .circle .year{
- color: white;
- font-weight: 800;
- font-size: 2rem;
- border: 2px solid white;
- border-radius: 50%;
- padding: 20px;
-} */
 /* Left Pride Ends */
 
 /* Right Pride Starts */
@@ -966,6 +935,156 @@ color: white;
         background: url('../images/products/external/product_bg.jpg') no-repeat 80% 20% / cover;
     }
 
+}
+
+@media screen and (max-width: 500px) {
+
+    /* Header Section Starts */
+    #header .top-header .get-quote {
+        letter-spacing: 2px;
+        font-size: 18px;
+    }
+
+    #header .top-header .top-contents .contact-ways {
+        border-radius: 3px;
+        padding: 2px 8px 5px;
+    }
+
+    #header .top-header .contact-contents .contact-ways .fas {
+        font-size: 18px;
+    }
+
+    #header #nav-header .logo .fas {
+        font-size: 41px;
+    }
+
+    #header #nav-header .logo,
+    #header #nav-header .doors {
+        font-size: 15px;
+    }
+
+    #header #nav-header #menuItems ul li a {
+        font-size: 15px;
+    }
+
+    #header #nav-header button {
+        font-size: 15px;
+    }
+
+    /* Header Section Ends */
+
+    /* Home Pages Start*/
+    #about-home-page .about-top,
+    #contacts .contacts-top,
+    #products .products-top {
+        height: 350px;
+    }
+
+    #about-home-page .about-top h1,
+    #contacts .contacts-top h1,
+    #products h1 {
+        font-size: 2.7rem;
+    }
+
+    #consultation .consultation-message h1 {
+        font-size: 3rem;
+    }
+
+    #consultation .consultation-form {
+        margin: 2rem 0;
+    }
+
+    #consultation .consultation-form form .schedule {
+        font-size: 1.5rem;
+    }
+
+    #consultation .consultation-form form input {
+        padding: 1rem 0.3rem;
+    }
+
+    #consultation .consultation-form form button {
+        font-size: 10px;
+    }
+
+    /* Home Pages End*/
+
+    /* Full Services List Starts */
+    #full-service .service-content .header {
+        font-size: 2rem;
+    }
+
+    #full-service .service-content .underline {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #full-service .service-content .service-message {
+        font-size: 1rem;
+    }
+
+    #full-service .product-wrapper .our-products {
+        font-size: 2rem;
+    }
+
+    #full-service .product-wrapper .our-products .dash {
+        display: none;
+    }
+
+    #full-service .product-wrapper .product-btn {
+        padding: 0.6rem 1.4rem;
+        font-size: 1rem;
+    }
+
+    #full-service .product-wrapper .product-btn .fas {
+        margin-left: 30px;
+    }
+
+    #full-service #product-boxes h3 {
+        font-size: 25px;
+    }
+
+    #full-service #product-boxes p {
+        font-size: 1rem;
+    }
+
+    /* Full Services List Ends */
+
+    /* Steps Start */
+    #steps .steps {
+        padding: 30px 0 90px;
+    }
+
+    #steps .steps-content .header {
+        font-size: 2rem;
+    }
+
+    /* Steps Under Line */
+    #steps .steps-content .underline {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #steps .step-column h4 {
+        font-size: 1rem;
+    }
+
+    #steps .steps-btn {
+        padding: 0.6rem 1.4rem;
+        font-size: 1rem;
+    }
+
+    #steps .steps-btn .fas {
+        margin-left: 30px;
+    }
+
+    /* Steps End */
+
+    /* Location Starts */
+#location .times-header{
+   font-size: 1.2rem;
+}
+
+/* Location Ends */
 }
 
 @media screen and (max-width: 310px) {
