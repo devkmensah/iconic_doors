@@ -139,7 +139,7 @@ body {
 /* Consultation Starts */
 /* Consultation, About, Contacts & Products Home Page Background Image & Overlay Starts*/
 #consultation {
-    background: url('../images/home_door.jpg') no-repeat center center/cover;
+    background: url('../images/home/home_door.jpg') no-repeat center center/cover;
     position: relative;
 }
 
@@ -156,7 +156,7 @@ body {
 #products {
     /* background: url('../images/products/p15.png') repeat center center / contain; */
     /* background: url('../images/products/external/p1.jpg') repeat center center / contain; */
-    background: url('../images/products/external/product_bg.jpg') no-repeat center center / cover;
+    background: url('../images/products/product_bg.jpg') no-repeat center center / cover;
     position: relative;
 }
 
@@ -446,13 +446,6 @@ body {
 
 /* About Home Page Ends */
 
-/* Satisfaction Starts */
-/* #satisfaction {
-    box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.63);
-    -webkit-box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.63);
-    -moz-box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.63);
-} */
-
 #satisfaction .left-satisfaction .about-header {
     color: var(--dark1);
     font-size: 2.1rem;
@@ -501,14 +494,6 @@ body {
 /* Satisfaction Ends */
 
 /* Pride Starts */
-/* #pride { */
-/* background: radial-gradient(circle at 60% 12%,
-    var(--green4) 60%,
-    var(--green-5) 12%); */
-/* background: rgba(0, 0, 0, 0.09); */
-
-/* } */
-
 /* Left Pride  Starts */
 #pride {
     background: url('../images/about/c1.jpg') no-repeat 20% 30% / cover;
@@ -549,10 +534,10 @@ body {
     font-size: 2rem;
 }
 
-#pride .left-pride .reputation {
+/* #pride .left-pride .reputation {
     color: var(--white);
     font-size: 1.5rem;
-}
+} */
 
 #pride .left-pride .experience {
     color: var(--white);
@@ -564,7 +549,6 @@ body {
 }
 
 #pride .left-pride .experience .experience-underline {
-    /* color: var(--white); */
     background: var(--green4);
     width: 100%;
 }
@@ -709,7 +693,7 @@ body {
 /* CONTACTS PAGE ENDS */
 
 
-/* Products Page Starts */
+/* PRODUCTS PAGE STARTS*/
 #products .products-top {
     height: 500px;
 }
@@ -719,8 +703,6 @@ body {
     font-size: 4.2rem;
     font-weight: 800;
 }
-
-/* Products Page Ends */
 
 /* External Products Content Starts */
 /* Header Starts */
@@ -774,6 +756,7 @@ body {
 
 /* Left Content Ends */
 /* External Products Content Ends */
+/* PRODUCTS PAGE ENDS*/
 /* Main  Ends */
 
 
@@ -858,10 +841,12 @@ body {
 #footer .arrow-up {
     background: var(--green4);
     color: var(--white);
+    z-index: 2;
 }
 
 #footer .arrow-up .arrow-column .arrow-icon-contain {
     position: relative;
+    z-index: 2;
 }
 
 #footer .arrow-up .arrow-column .arrow-icon-contain .arrow-content {
@@ -932,7 +917,7 @@ body {
 
     /* Products Page */
     #products {
-        background: url('../images/products/external/product_bg.jpg') no-repeat 80% 20% / cover;
+        background: url('../images/products/product_bg.jpg') no-repeat 80% 20% / cover;
     }
 
 }
@@ -1080,11 +1065,147 @@ body {
     /* Steps End */
 
     /* Location Starts */
-#location .times-header{
-   font-size: 1.2rem;
-}
+    #location .times-header {
+        font-size: 1.2rem;
+    }
 
-/* Location Ends */
+    /* Location Ends */
+
+    /* ABOUT PAGE STARTS */
+    #satisfaction .left-satisfaction .about-header {
+        font-size: 1.7rem;
+    }
+
+    #satisfaction .left-satisfaction p,
+    #satisfaction .right-satisfaction .over {
+        font-size: 1rem;
+    }
+
+    #satisfaction .right-satisfaction .counting {
+        font-size: 5rem;
+    }
+
+    #satisfaction .right-satisfaction .social li {
+        font-size: 2.5rem;
+    }
+
+    #pride .left-pride .customer-service {
+        font-size: 1.8rem;
+    }
+
+    #pride .left-pride .star {
+        font-size: 1rem;
+    }
+
+    #pride .left-pride .experience .years {
+        font-size: 1.6rem;
+    }
+
+    #pride .left-pride .experience span {
+        font-size: 0.9rem;
+    }
+
+    #pride .right-pride .values h3 {
+        font-size: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    #pride .right-pride .values p {
+        font-size: 0.85rem;
+    }
+
+    #pride .right-pride .values .fas {
+        font-size: 2.5rem;
+    }
+
+    /* ABOUT PAGE EndS */
+
+    /* CONTACTS PAGE STARTS */
+    #customer-service-reps .service-header {
+        font-size: 1.7rem;
+    }
+
+    #customer-service-reps .service-underline {
+        width: 220px;
+    }
+
+    #customer-service-reps h3 {
+        font-size: 1.2rem;
+    }
+
+    #customer-service-reps p {
+        font-size: 0.9rem;
+    }
+
+    #contacts-form {
+        padding: 1.5rem 0;
+    }
+
+    #contacts-form form .contact-us {
+        font-size: 2.3rem;
+    }
+
+    #contacts-form form .contacts-underline {
+        width: 180px;
+        margin: 0 auto 1.8rem 0;
+    }
+
+    #contacts-form form input {
+        padding: 1rem 0.3rem;
+    }
+
+    #contacts-form form button {
+        font-size: 12px;
+    }
+
+    /* CONTACTS PAGE ENDS */
+
+    /* PRODUCTS PAGE STARTS */
+    #products-content .product-header {
+        font-size: 2rem;
+    }
+
+    #products-content .left-content .content-header {
+        font-size: 1.5rem;
+    }
+
+    #products-content .left-content .content-text {
+        font-size: 0.9rem;
+    }
+
+    #products-content .media-btn .content-btn {
+        padding: 0.6rem 1.4rem;
+        font-size: 1rem;
+    }
+
+    #products-content .media-btn .content-btn .fas {
+        margin-left: 30px;
+    }
+
+    #products-content .door-number {
+        display: none;
+     }
+    /* PRODUCTS PAGE ENDS */
+
+    /* FOOTER SECTION STARTS */
+    #footer .footer-top h3{
+     font-size: 1.5rem;
+    }
+
+    #footer .footer-top .about-header,  #footer .footer-top .contact-header{
+        font-size: 1rem;
+    }
+
+    #footer .footer-top .details li .fas {
+        padding: 0.29rem;
+    }
+
+    #footer .footer-top .contact .details li,  #footer .footer-top p,   #footer .footer-bottom p{
+        font-size: 0.9rem;
+    }
+
+    
+    /* FOOTER SECTION ENDS */
 }
 
 @media screen and (max-width: 310px) {
@@ -1101,7 +1222,7 @@ body {
 
     /* Products Page */
     #products {
-        background: url('../images/products/external/product_bg.jpg') repeat center center / contain;
+        background: url('../images/products/product_bg.jpg') repeat center center / contain;
     }
 
 }
