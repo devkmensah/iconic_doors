@@ -20,6 +20,16 @@ body {
   color: var(--ash);
 }
 
+/* reveal sections on scroll */
+.unreveal {
+  transform: translateY(7.5rem);
+  opacity: 0;
+}
+
+.reveal-section {
+  transition: transform 1s, opacity 1s;
+}
+
 .faint-text {
   font-size: 1.2rem;
   font-weight: 300;
@@ -834,10 +844,12 @@ body {
   background: var(--green4);
   color: var(--white);
   z-index: 2;
+  transition: transform 1s;
 }
 
 #footer .arrow-up.hidden {
   display: none;
+  transition: transform 1s;
 }
 
 #footer .arrow-up .arrow-column .arrow-icon-contain {
