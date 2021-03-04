@@ -1,187 +1,187 @@
-/*Color Variables Start */
+/**
+ * /*Color Variables Start
+ *
+ * @format
+ */
+
 :root {
-    --green4: #67854A;
-    --green-5: #5c7742;
-    --dark1: #0c0c0c;
-    --ash: #333;
-    --white: #ffffff;
+  --green4: #67854a;
+  --green-5: #5c7742;
+  --dark1: #0c0c0c;
+  --ash: #333;
+  --white: #ffffff;
 }
 
 /*Color Variables End */
 
 body {
-    background: var(--white);
-    font-family: 'Roboto', sans-serif;
-    color: var(--ash);
+  background: var(--white);
+  font-family: 'Roboto', sans-serif;
+  color: var(--ash);
 }
 
 .faint-text {
-    font-size: 1.2rem;
-    font-weight: 300;
+  font-size: 1.2rem;
+  font-weight: 300;
 }
-
-
-
 
 /* Header Section Starts */
 /* Top Header Starts */
 #header .top-header {
-    background: var(--green4);
-    color: var(--white);
+  background: var(--green4);
+  color: var(--white);
 }
 
 #header .top-header .get-quote {
-    letter-spacing: 4px;
-    font-size: 22px;
-    color: var(--dark1);
-    font-family: 'Oswald', sans-serif;
+  letter-spacing: 4px;
+  font-size: 22px;
+  color: var(--dark1);
+  font-family: 'Oswald', sans-serif;
 }
 
 #header .top-header .top-contents .contact-ways {
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 3px;
-    padding: 4px 10px 7px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  padding: 4px 10px 7px;
 }
 
 #header .top-header .top-contents .contact-ways a {
-    color: var(--white);
+  color: var(--white);
 }
 
 #header .top-header .contact-contents .contact-ways .fas {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 /* Top Header Ends */
 
 /* Header Navigation Starts */
 #header #nav-header {
-    background: #fff;
-    box-shadow: 2px 2px 5px var(--green4);
-    opacity: 0.8;
-    z-index: 1;
+  background: #fff;
+  box-shadow: 2px 2px 5px var(--green4);
+  opacity: 0.8;
+  z-index: 1;
 }
 
 /* Logo Starts */
 #header #nav-header .logo {
-    font-family: 'Syne Mono', monospace;
-    text-transform: uppercase;
+  font-family: 'Syne Mono', monospace;
+  text-transform: uppercase;
 }
 
 #header #nav-header .logo .doors {
-    color: var(--green4);
+  color: var(--green4);
 }
 
 #header #nav-header .logo .fas {
-    font-size: 45px;
-    color: var(--green4);
+  font-size: 45px;
+  color: var(--green4);
 }
 
 /* Logo Ends */
 
 /* Toggler Button Starts */
 #header #nav-header button {
-    border: none;
+  border: none;
 }
 
 #header #nav-header button:focus {
-    outline: none;
+  outline: none;
 }
 
 /* Toggler Button Ends */
 
-
 /* Menu Items Start */
 #header #nav-header #menuItems ul li {
-    margin: 0 15px;
+  margin: 0 15px;
 }
 
 #header #nav-header #menuItems ul li a {
-    color: var(--ash);
-    position: relative;
-    overflow: hidden;
-    border: none;
-    transition: .35s ease-in-out;
+  color: var(--ash);
+  position: relative;
+  overflow: hidden;
+  border: none;
+  transition: 0.35s ease-in-out;
 }
 
 #header #nav-header #menuItems ul li a.current {
-    color: var(--green4);
+  color: var(--green4);
 }
 
-
 #header #nav-header #menuItems ul li a:hover {
-    color: var(--green4);
+  color: var(--green4);
 }
 
 #header #nav-header #menuItems ul li a:after {
-    content: '';
-    position: absolute;
-    background: var(--green4);
-    height: 2px;
-    width: 0%;
-    transform: translateX(100%);
-    left: -100%;
-    bottom: 1px;
-    border: none;
-    transition: .45s ease-in-out;
+  content: '';
+  position: absolute;
+  background: var(--green4);
+  height: 2px;
+  width: 0%;
+  transform: translateX(100%);
+  left: -100%;
+  bottom: 1px;
+  border: none;
+  transition: 0.45s ease-in-out;
 }
 
 #header #nav-header #menuItems ul li a:hover:after {
-    width: 100%;
-    color: var(--green4);
+  width: 100%;
+  color: var(--green4);
 }
 
 /* Menu Items End */
 /* Header Navigation Ends */
 /* Header Section Ends */
 
-
 /* Main Starts */
 /* Consultation Starts */
 /* Consultation, About, Contacts & Products Home Page Background Image & Overlay Starts*/
 #consultation {
-    background: url('../images/home/home_door.jpg') no-repeat center center/cover;
-    position: relative;
+  background: url('../images/home/home_door.jpg') no-repeat center center/cover;
+  position: relative;
 }
 
 #about-home-page {
-    background: url('../images/about/c2.jpg') no-repeat center center/cover;
-    position: relative;
+  background: url('../images/about/c2.jpg') no-repeat center center/cover;
+  position: relative;
 }
 
 #contacts {
-    background: url('../images/contacts/ct11.jpg') no-repeat center center/cover;
-    position: relative;
+  background: url('../images/contacts/ct11.jpg') no-repeat center center/cover;
+  position: relative;
 }
 
 #products {
-    /* background: url('../images/products/p15.png') repeat center center / contain; */
-    /* background: url('../images/products/external/p1.jpg') repeat center center / contain; */
-    background: url('../images/products/product_bg.jpg') no-repeat center center / cover;
-    position: relative;
+  /* background: url('../images/products/p15.png') repeat center center / contain; */
+  /* background: url('../images/products/external/p1.jpg') repeat center center / contain; */
+  background: url('../images/products/product_bg.jpg') no-repeat center center /
+    cover;
+  position: relative;
 }
 
 #consultation::after,
 #about-home-page:after,
 #contacts:after {
-    content: '';
-    position: absolute;
-    background: rgba(0, 0, 0, 0.3);
-    width: 100%;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  content: '';
+  position: absolute;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 #products:after {
-    content: '';
-    position: absolute;
-    background: rgba(0, 0, 0, 0.1);
-    width: 100%;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  content: '';
+  position: absolute;
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 /* Consultation, About, Contacts & Products Home Page Background Image & Overlay Ends*/
@@ -190,70 +190,74 @@ body {
 #about-home-page *,
 #contacts *,
 #products * {
-    z-index: 1;
+  z-index: 1;
 }
 
 /* Consultation Message Starts */
 #consultation .consultation-message h1 {
-    color: var(--white);
-    font-size: 4.2rem;
+  color: var(--white);
+  font-size: 4.2rem;
 }
 
 /* Consultation Message Ends */
 
 /* Consultation Form Starts */
 #consultation .consultation-form {
-    background: transparent;
-    margin: 5rem 0;
+  background: transparent;
+  margin: 5rem 0;
 }
 
 #consultation .consultation-form form {
-    margin: 0 auto;
-    width: 90%;
-    background: radial-gradient(circle at 60% 12%,
-            var(--green4) 60%,
-            var(--green-5) 12%);
+  margin: 0 auto;
+  width: 90%;
+  background: radial-gradient(
+    circle at 60% 12%,
+    var(--green4) 60%,
+    var(--green-5) 12%
+  );
 }
 
 #consultation .consultation-form form .schedule {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 #consultation .consultation-form form .schedule,
 #consultation .consultation-form form label {
-    color: var(--white);
+  color: var(--white);
 }
 
 #consultation .consultation-form form input {
-    padding: 1.2rem 0.5rem;
-    border: 1px solid transparent;
+  padding: 1.2rem 0.5rem;
+  border: 1px solid transparent;
 }
 
 #consultation .consultation-form form input:focus {
-    outline: none;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01) inset, 0 0 150px rgba(126, 239, 104, 0.6);
-    border: 1px solid transparent;
+  outline: none;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01) inset,
+    0 0 150px rgba(126, 239, 104, 0.6);
+  border: 1px solid transparent;
 }
 
 #consultation .consultation-form form button {
-    background: var(--dark1);
-    color: var(--white);
-    font-size: 14px;
-    padding: 0.6rem 1rem;
-    letter-spacing: 1.2px;
-    transition: .35s ease-in-out;
+  background: var(--dark1);
+  color: var(--white);
+  font-size: 14px;
+  padding: 0.6rem 1rem;
+  letter-spacing: 1.2px;
+  transition: 0.35s ease-in-out;
 }
 
 #consultation .consultation-form form button:focus {
-    outline: none;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01) inset, 0 0 150px rgba(126, 239, 104, 0.6);
-    border: 1px solid transparent;
+  outline: none;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01) inset,
+    0 0 150px rgba(126, 239, 104, 0.6);
+  border: 1px solid transparent;
 }
 
 #consultation .consultation-form form button:hover {
-    background: var(--white);
-    color: var(--dark1);
-    /* border: 1px solid var(--dark1); */
+  background: var(--white);
+  color: var(--dark1);
+  /* border: 1px solid var(--dark1); */
 }
 
 /* Consultation Form Ends */
@@ -262,84 +266,84 @@ body {
 /* Full Services List Starts */
 /* Service Header Starts */
 #full-service .service-content .header {
-    font-size: 3rem;
-    font-weight: 800;
-    color: var(--dark1);
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--dark1);
 }
 
 #full-service .service-content .underline {
-    background: var(--green4);
-    height: 4px;
-    width: 615px;
-    margin: 0 auto 0 0;
+  background: var(--green4);
+  height: 4px;
+  width: 615px;
+  margin: 0 auto 0 0;
 }
 
 #full-service .service-content .service-message {
-    font-size: 1.2rem;
-    font-weight: 300;
+  font-size: 1.2rem;
+  font-weight: 300;
 }
 
 #full-service .service-content .first-logo {
-    font-family: 'Syne Mono', monospace;
-    text-transform: uppercase;
+  font-family: 'Syne Mono', monospace;
+  text-transform: uppercase;
 }
 
 #full-service .service-content .last-logo {
-    font-family: 'Syne Mono', monospace;
-    text-transform: uppercase;
-    color: var(--green4);
+  font-family: 'Syne Mono', monospace;
+  text-transform: uppercase;
+  color: var(--green4);
 }
 
 /* Service Header Ends */
 
 /* Products Wrapper Starts */
 #full-service .product-wrapper .our-products {
-    font-size: 2.5rem;
-    font-weight: 600;
-    color: var(--dark1);
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--dark1);
 }
 
 #full-service .product-wrapper .our-products .dash {
-    font-weight: 100;
+  font-weight: 100;
 }
 
 /* Product Boxes Start */
 #full-service .product-wrapper #product-boxes .box {
-    transition: transform .65s ease-in-out;
+  transition: transform 0.65s ease-in-out;
 }
 
 #full-service .product-wrapper #product-boxes .box:hover {
-    transform: scale(1.02);
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.14);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.14);
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.14);
+  transform: scale(1.02);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.14);
 }
 
 /* Product Boxes End */
 
 /* Product Button Starts */
 #full-service .product-wrapper .product-btn {
-    border-radius: 10px 10px 0 10px;
-    border: 1px solid var(--dark1);
-    color: var(--dark1);
-    padding: 0.6rem 1.8rem;
-    font-size: 1.3rem;
-    letter-spacing: 1.2px;
-    transition: .45s ease-in-out;
+  border-radius: 10px 10px 0 10px;
+  border: 1px solid var(--dark1);
+  color: var(--dark1);
+  padding: 0.6rem 1.8rem;
+  font-size: 1.3rem;
+  letter-spacing: 1.2px;
+  transition: 0.45s ease-in-out;
 }
 
 #full-service .product-wrapper .product-btn:hover {
-    background: var(--dark1);
-    color: var(--white);
+  background: var(--dark1);
+  color: var(--white);
 }
 
 #full-service .product-wrapper .product-btn:focus {
-    outline: none;
-    box-shadow: 1px solid var(--dark1);
+  outline: none;
+  box-shadow: 1px solid var(--dark1);
 }
 
 #full-service .product-wrapper .product-btn .fas {
-    margin-left: 35px;
+  margin-left: 35px;
 }
 
 /* Product Service Button Ends */
@@ -348,73 +352,74 @@ body {
 
 /* Steps Start */
 #steps {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 #steps .steps {
-    background: radial-gradient(circle at 60% 12%,
-            var(--green4) 60%,
-            var(--green-5) 12%);
-    border-radius: 50px 50px 0 0;
-    padding: 40px 0 100px;
+  background: radial-gradient(
+    circle at 60% 12%,
+    var(--green4) 60%,
+    var(--green-5) 12%
+  );
+  border-radius: 50px 50px 0 0;
+  padding: 40px 0 100px;
 }
-
 
 /* Steps Header */
 #steps .steps-content .header {
-    font-size: 3rem;
-    font-weight: 800;
-    color: var(--white);
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--white);
 }
 
 /* Steps Under Line */
 #steps .steps-content .underline {
-    background: var(--dark1);
-    height: 4px;
-    width: 450px;
-    margin: 0 auto 0 0;
+  background: var(--dark1);
+  height: 4px;
+  width: 450px;
+  margin: 0 auto 0 0;
 }
 
 /* Steps Column Starts */
 #steps .step-column {
-    color: var(--white);
+  color: var(--white);
 }
 
 #steps .step-column h4 {
-    font-size: 1.2rem;
-    line-height: 1.6;
+  font-size: 1.2rem;
+  line-height: 1.6;
 }
 
 #steps .step-column .fas {
-    color: var(--dark1);
-    margin-right: 0.5rem;
+  color: var(--dark1);
+  margin-right: 0.5rem;
 }
 
 /* Steps Column Endss */
 
 /* Steps Button Starts */
 #steps .steps-btn {
-    border-radius: 10px 10px 0 10px;
-    border: 1px solid var(--white);
-    color: var(--white);
-    padding: 0.6rem 1.8rem;
-    font-size: 1.3rem;
-    letter-spacing: 1.2px;
-    transition: .45s ease-in-out;
+  border-radius: 10px 10px 0 10px;
+  border: 1px solid var(--white);
+  color: var(--white);
+  padding: 0.6rem 1.8rem;
+  font-size: 1.3rem;
+  letter-spacing: 1.2px;
+  transition: 0.45s ease-in-out;
 }
 
 #steps .steps-btn:hover {
-    background: var(--white);
-    color: var(--dark1);
+  background: var(--white);
+  color: var(--dark1);
 }
 
 #steps .steps-btn:focus {
-    outline: none;
-    box-shadow: 1px solid var(--white);
+  outline: none;
+  box-shadow: 1px solid var(--white);
 }
 
 #steps .steps-btn .fas {
-    margin-left: 35px;
+  margin-left: 35px;
 }
 
 /* Steps Button Ends */
@@ -422,73 +427,68 @@ body {
 
 /* Location Starts */
 #location {
-    padding: 30px 0;
+  padding: 30px 0;
 }
 
 /* Location Ends */
 
-
-
-
-
-
 /* ABOUT PAGE STARTS */
 /* About Home Page Starts */
 #about-home-page .about-top {
-    height: 450px;
+  height: 450px;
 }
 
 #about-home-page .about-top h1 {
-    color: var(--white);
-    font-size: 3.7rem;
-    font-weight: 800;
+  color: var(--white);
+  font-size: 3.7rem;
+  font-weight: 800;
 }
 
 /* About Home Page Ends */
 
 #satisfaction .left-satisfaction .about-header {
-    color: var(--dark1);
-    font-size: 2.1rem;
-    font-weight: 800;
+  color: var(--dark1);
+  font-size: 2.1rem;
+  font-weight: 800;
 }
 
 #satisfaction .left-satisfaction .about-underline {
-    background: var(--green4);
-    height: 2px;
-    width: 137px;
-    margin: 0 auto 0 0;
-    margin-bottom: 1rem;
+  background: var(--green4);
+  height: 2px;
+  width: 137px;
+  margin: 0 auto 0 0;
+  margin-bottom: 1rem;
 }
 
 #satisfaction .right-satisfaction .counting {
-    color: var(--green4);
-    font-weight: 800;
-    font-size: 6.5rem;
+  color: var(--green4);
+  font-weight: 800;
+  font-size: 6.5rem;
 }
 
 #satisfaction .right-satisfaction .over {
-    color: var(--dark1);
-    font-size: 1.5rem;
+  color: var(--dark1);
+  font-size: 1.5rem;
 }
 
 #satisfaction .right-satisfaction .social {
-    list-style: none;
+  list-style: none;
 }
 
 #satisfaction .right-satisfaction .social li {
-    margin: 0 0.3rem;
-    font-size: 3.5rem;
-    color: var(--dark1);
-    cursor: pointer;
-    transition: .35s ease-in-out;
+  margin: 0 0.3rem;
+  font-size: 3.5rem;
+  color: var(--dark1);
+  cursor: pointer;
+  transition: 0.35s ease-in-out;
 }
 
 #satisfaction .right-satisfaction .social li a {
-    color: var(--dark1);
+  color: var(--dark1);
 }
 
 #satisfaction .right-satisfaction .social li:hover {
-    transform: translateY(-5.0px);
+  transform: translateY(-5px);
 }
 
 /* Satisfaction Ends */
@@ -496,42 +496,42 @@ body {
 /* Pride Starts */
 /* Left Pride  Starts */
 #pride {
-    background: url('../images/about/c1.jpg') no-repeat 20% 30% / cover;
-    position: relative;
+  background: url('../images/about/c1.jpg') no-repeat 20% 30% / cover;
+  position: relative;
 }
 
 #pride::before {
-    content: '';
-    position: absolute;
-    background: rgba(0, 0, 0, 0.6);
-    width: 100%;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  content: '';
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 #pride * {
-    z-index: 1;
+  z-index: 1;
 }
 
 #pride .left-pride {
-    background: var(--dark1);
+  background: var(--dark1);
 }
 
 #pride .left-pride .customer-service {
-    color: var(--white);
-    font-size: 2.2rem;
+  color: var(--white);
+  font-size: 2.2rem;
 }
 
 #pride .left-pride .stars {
-    color: var(--green4);
-    margin: 10px 0 40px;
+  color: var(--green4);
+  margin: 10px 0 40px;
 }
 
 #pride .left-pride .star {
-    margin: 0 3px;
-    font-size: 2rem;
+  margin: 0 3px;
+  font-size: 2rem;
 }
 
 /* #pride .left-pride .reputation {
@@ -540,25 +540,25 @@ body {
 } */
 
 #pride .left-pride .experience {
-    color: var(--white);
-    text-transform: uppercase;
+  color: var(--white);
+  text-transform: uppercase;
 }
 
 #pride .left-pride .experience .years {
-    font-weight: 800;
+  font-weight: 800;
 }
 
 #pride .left-pride .experience .experience-underline {
-    background: var(--green4);
-    width: 100%;
+  background: var(--green4);
+  width: 100%;
 }
 
 /* Left Pride Ends */
 
 /* Right Pride Starts */
 #pride .right-pride .values i {
-    color: var(--green4);
-    font-size: 3.2rem;
+  color: var(--green4);
+  font-size: 3.2rem;
 }
 
 /* #pride .right-pride .top-row *{
@@ -566,192 +566,190 @@ body {
 } */
 
 #pride .right-pride .values h3 {
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    color: var(--white);
-    margin-top: 1.5rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: var(--white);
+  margin-top: 1.5rem;
 }
 
 #pride .right-pride .values p {
-    color: var(--white);
+  color: var(--white);
 }
 
 /* Right Pride Ends */
 /* Pride Ends */
 /* ABOUT PAGE Ends */
 
-
-
-
-
 /* CONTACTS PAGE STARTS */
 #contacts .contacts-top {
-    height: 450px;
+  height: 450px;
 }
 
 #contacts .contacts-top h1 {
-    color: var(--white);
-    font-size: 3.7rem;
-    font-weight: 800;
+  color: var(--white);
+  font-size: 3.7rem;
+  font-weight: 800;
 }
 
 /* Customer Service Starts */
 #customer-service-reps .service-header {
-    color: var(--dark1);
-    font-size: 2.1rem;
-    font-weight: 800;
+  color: var(--dark1);
+  font-size: 2.1rem;
+  font-weight: 800;
 }
 
 #customer-service-reps .service-underline {
-    background: var(--green4);
-    height: 2px;
-    width: 270px;
-    margin: 0 auto 0 0;
-    margin-bottom: 1rem;
+  background: var(--green4);
+  height: 2px;
+  width: 270px;
+  margin: 0 auto 0 0;
+  margin-bottom: 1rem;
 }
 
 #customer-service-reps h3 {
-    font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 #customer-service-reps a {
-    color: var(--dark1);
+  color: var(--dark1);
 }
 
 #customer-service-reps a:hover {
-    color: var(--green4);
-    text-decoration: none;
+  color: var(--green4);
+  text-decoration: none;
 }
 
 /* Customer Service Ends */
 
-
-
 /* Contacts Form Starts */
 #contacts-form {
-    background: radial-gradient(circle at 60% 12%,
-            var(--green4) 60%,
-            var(--green-5) 12%);
-    color: var(--white);
-    border-radius: 0 70px;
-    padding: 2rem 0;
+  background: radial-gradient(
+    circle at 60% 12%,
+    var(--green4) 60%,
+    var(--green-5) 12%
+  );
+  color: var(--white);
+  border-radius: 0 70px;
+  padding: 2rem 0;
 }
 
 #contacts-form form .contact-us {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 #contacts-form form .contacts-underline {
-    background: var(--white);
-    height: 2px;
-    width: 235px;
-    margin: 0 auto 1.8rem 0;
+  background: var(--white);
+  height: 2px;
+  width: 235px;
+  margin: 0 auto 1.8rem 0;
 }
 
 #contacts-form form input {
-    padding: 1.2rem 0.5rem;
-    border: 1px solid transparent;
+  padding: 1.2rem 0.5rem;
+  border: 1px solid transparent;
 }
 
 #contacts-form form input:focus {
-    outline: none;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01) inset, 0 0 150px rgba(126, 239, 104, 0.6);
-    border: 1px solid transparent;
+  outline: none;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01) inset,
+    0 0 150px rgba(126, 239, 104, 0.6);
+  border: 1px solid transparent;
 }
 
 #contacts-form form button {
-    background: var(--dark1);
-    color: var(--white);
-    font-size: 14px;
-    padding: 0.6rem 3rem;
-    letter-spacing: 1.2px;
-    transition: .35s ease-in-out;
+  background: var(--dark1);
+  color: var(--white);
+  font-size: 14px;
+  padding: 0.6rem 3rem;
+  letter-spacing: 1.2px;
+  transition: 0.35s ease-in-out;
 }
 
 #contacts-form form button:focus {
-    outline: none;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01) inset, 0 0 150px rgba(126, 239, 104, 0.6);
-    border: 1px solid transparent;
+  outline: none;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01) inset,
+    0 0 150px rgba(126, 239, 104, 0.6);
+  border: 1px solid transparent;
 }
 
 #contacts-form form button:hover {
-    background: var(--white);
-    color: var(--dark1);
+  background: var(--white);
+  color: var(--dark1);
 }
 
 #contacts-form form textarea {
-    border: 1px solid transparent;
+  border: 1px solid transparent;
 }
 
 #contacts-form form textarea:focus {
-    outline: none;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01) inset, 0 0 150px rgba(126, 239, 104, 0.6);
-    border: 1px solid transparent;
+  outline: none;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01) inset,
+    0 0 150px rgba(126, 239, 104, 0.6);
+  border: 1px solid transparent;
 }
 
 /* Contacts Form Ends */
 /* CONTACTS PAGE ENDS */
 
-
 /* PRODUCTS PAGE STARTS*/
 #products .products-top {
-    height: 500px;
+  height: 500px;
 }
 
 #products h1 {
-    color: var(--white);
-    font-size: 4.2rem;
-    font-weight: 800;
+  color: var(--white);
+  font-size: 4.2rem;
+  font-weight: 800;
 }
 
 /* External Products Content Starts */
 /* Header Starts */
 #products-content .product-header-wrapper {
-    border-top: 10px solid var(--dark1);
-    border-bottom: 10px solid var(--dark1);
+  border-top: 10px solid var(--dark1);
+  border-bottom: 10px solid var(--dark1);
 }
 
 #products-content .product-header {
-    color: var(--dark1);
-    font-size: 3rem;
-    font-weight: 800;
+  color: var(--dark1);
+  font-size: 3rem;
+  font-weight: 800;
 }
 
 /* Header Ends */
 
 /* Left Content Starts */
 #products-content .left-content .content-header {
-    color: var(--dark1);
-    font-size: 2rem;
-    font-weight: 600;
+  color: var(--dark1);
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 #products-content .content-btn {
-    border-radius: 10px 10px 0 10px;
-    border: 1px solid var(--dark1);
-    color: var(--dark1);
-    padding: 0.6rem 1.8rem;
-    font-size: 1.3rem;
-    letter-spacing: 1.2px;
-    transition: .45s ease-in-out;
+  border-radius: 10px 10px 0 10px;
+  border: 1px solid var(--dark1);
+  color: var(--dark1);
+  padding: 0.6rem 1.8rem;
+  font-size: 1.3rem;
+  letter-spacing: 1.2px;
+  transition: 0.45s ease-in-out;
 }
 
 #products-content .content-btn:hover {
-    background: var(--dark1);
-    color: var(--white);
+  background: var(--dark1);
+  color: var(--white);
 }
 
 #products-content .content-btn:focus {
-    outline: none;
-    box-shadow: 1px solid var(--dark1);
+  outline: none;
+  box-shadow: 1px solid var(--dark1);
 }
 
 #products-content .content-btn .fas {
-    margin-left: 35px;
+  margin-left: 35px;
 }
 
 #products-content .media-btn {
-    margin: 50px 0 3px;
+  margin: 50px 0 3px;
 }
 
 /* Left Content Ends */
@@ -759,472 +757,463 @@ body {
 /* PRODUCTS PAGE ENDS*/
 /* Main  Ends */
 
-
-
-
-
-
-
 /* Footer Starts */
 #footer .footer-top {
-    background: var(--dark1);
-    color: var(--white);
+  background: var(--dark1);
+  color: var(--white);
 }
 
 #footer .footer-top .logo-name {
-    background: var(--green4);
-    color: var(--white);
-    font-family: 'Syne Mono', monospace;
+  background: var(--green4);
+  color: var(--white);
+  font-family: 'Syne Mono', monospace;
 }
 
 #footer .footer-top .about-us .underline {
-    background: var(--green4);
-    height: 1px;
-    width: 95px;
-    margin: 0 auto 0 0;
-    margin-bottom: 1rem;
+  background: var(--green4);
+  height: 1px;
+  width: 95px;
+  margin: 0 auto 0 0;
+  margin-bottom: 1rem;
 }
 
 #footer .footer-top .about-us,
 .contact {
-    background: var(--dark1);
-    color: var(--white);
+  background: var(--dark1);
+  color: var(--white);
 }
 
 #footer .footer-top .contact .underline {
-    background: var(--green4);
-    height: 1px;
-    width: 125px;
-    margin: 0 auto 0 0;
-    margin-bottom: 1rem;
+  background: var(--green4);
+  height: 1px;
+  width: 125px;
+  margin: 0 auto 0 0;
+  margin-bottom: 1rem;
 }
 
 #footer .footer-top .about-us,
 .contact .details {
-    list-style: none;
-    padding-left: 0;
+  list-style: none;
+  padding-left: 0;
 }
 
 #footer .footer-top .about-us,
 .contact .details li {
-    margin: 1rem 0;
+  margin: 1rem 0;
 }
 
 #footer .footer-top .details li .fas {
-    color: var(--green4);
-    margin-right: 10px;
-    border: 1px solid var(--green4);
-    border-radius: 5px;
-    padding: 0.39rem;
+  color: var(--green4);
+  margin-right: 10px;
+  border: 1px solid var(--green4);
+  border-radius: 5px;
+  padding: 0.39rem;
 }
 
 #footer .footer-top .details a {
-    color: var(--white);
-    text-decoration: none;
+  color: var(--white);
+  text-decoration: none;
 }
 
 #footer .footer-top .about-us,
 .contact .details li:first-child {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 #footer .footer-top .about-us,
 .contact .details li:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 #footer .footer-bottom {
-    background: var(--green4);
-    color: var(--white);
+  background: var(--green4);
+  color: var(--white);
 }
 
 #footer .arrow-up {
-    background: var(--green4);
-    color: var(--white);
-    z-index: 2;
+  background: var(--green4);
+  color: var(--white);
+  z-index: 2;
+}
+
+#footer .arrow-up.hidden {
+  display: none;
 }
 
 #footer .arrow-up .arrow-column .arrow-icon-contain {
-    position: relative;
-    z-index: 2;
+  position: relative;
+  z-index: 2;
 }
 
 #footer .arrow-up .arrow-column .arrow-icon-contain .arrow-content {
-    position: fixed;
-    bottom: 15px;
-    right: 15px;
-    color: var(--white);
-    text-align: center;
-    background: var(--green4);
-    border-radius: 50px;
-    height: 55px;
-    width: 55px;
-    -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.14);
-    -moz-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.14);
-    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.14);
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  color: var(--white);
+  text-align: center;
+  background: var(--green4);
+  border-radius: 50px;
+  height: 55px;
+  width: 55px;
+  -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.14);
 }
 
 #footer .arrow-up .arrow-column .arrow-icon-contain .fas {
-    font-size: 30px;
-    margin: 2px 0 -4px;
+  font-size: 30px;
+  margin: 2px 0 -4px;
 }
 
 #footer .arrow-up .arrow-column .arrow-icon-contain .arrow-text {
-    text-transform: uppercase;
-    font-size: 12px;
-    margin-top: 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 0;
 }
 
 /* Footer Ends */
 
-
-
-
-
 /* Media Queries Start */
 
 @media screen and (max-width: 991px) {
+  /* Consultation */
+  #consultation .consultation-form form {
+    width: 100%;
+  }
 
-    /* Consultation */
-    #consultation .consultation-form form {
-        width: 100%;
-    }
+  /* Full Services List */
+  #full-service .service-content .underline {
+    width: 100%;
+    margin: 0 auto;
+  }
 
-    /* Full Services List */
-    #full-service .service-content .underline {
-        width: 100%;
-        margin: 0 auto;
-    }
+  /* Steps */
+  #steps .steps-content .underline {
+    width: 100%;
+    margin: 0 auto;
+  }
 
-    /* Steps */
-    #steps .steps-content .underline {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    #steps .step-column {
-        text-align: center;
-    }
+  #steps .step-column {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    #satisfaction .left-satisfaction .about-underline {
-        margin: 0 auto;
-    }
+  #satisfaction .left-satisfaction .about-underline {
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 550px) {
-
-    /* Products Page */
-    #products {
-        background: url('../images/products/product_bg.jpg') no-repeat 80% 20% / cover;
-    }
-
+  /* Products Page */
+  #products {
+    background: url('../images/products/product_bg.jpg') no-repeat 80% 20% /
+      cover;
+  }
 }
 
 @media screen and (max-width: 500px) {
-
-    /* Header Section Starts */
-    #header .top-header .get-quote {
-        letter-spacing: 2px;
-        font-size: 18px;
-    }
-
-    #header .top-header .top-contents .contact-ways {
-        border-radius: 3px;
-        padding: 2px 8px 5px;
-    }
-
-    #header .top-header .contact-contents .contact-ways .fas {
-        font-size: 18px;
-    }
-
-    #header #nav-header .logo .fas {
-        font-size: 41px;
-    }
-
-    #header #nav-header .logo,
-    #header #nav-header .doors {
-        font-size: 15px;
-    }
-
-    #header #nav-header #menuItems ul li a {
-        font-size: 15px;
-    }
-
-    #header #nav-header button {
-        font-size: 15px;
-    }
-
-    /* Header Section Ends */
-
-    /* Home Pages Start*/
-    #about-home-page .about-top,
-    #contacts .contacts-top,
-    #products .products-top {
-        height: 350px;
-    }
-
-    #about-home-page .about-top h1,
-    #contacts .contacts-top h1,
-    #products h1 {
-        font-size: 2.7rem;
-    }
-
-    #consultation .consultation-message h1 {
-        font-size: 3rem;
-    }
-
-    #consultation .consultation-form {
-        margin: 2rem 0;
-    }
-
-    #consultation .consultation-form form .schedule {
-        font-size: 1.5rem;
-    }
-
-    #consultation .consultation-form form input {
-        padding: 1rem 0.3rem;
-    }
-
-    #consultation .consultation-form form button {
-        font-size: 10px;
-    }
-
-    /* Home Pages End*/
-
-    /* Full Services List Starts */
-    #full-service .service-content .header {
-        font-size: 2rem;
-    }
-
-    #full-service .service-content .underline {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    #full-service .service-content .service-message {
-        font-size: 1rem;
-    }
-
-    #full-service .product-wrapper .our-products {
-        font-size: 2rem;
-    }
-
-    #full-service .product-wrapper .our-products .dash {
-        display: none;
-    }
-
-    #full-service .product-wrapper .product-btn {
-        padding: 0.6rem 1.4rem;
-        font-size: 1rem;
-    }
-
-    #full-service .product-wrapper .product-btn .fas {
-        margin-left: 30px;
-    }
-
-    #full-service #product-boxes h3 {
-        font-size: 25px;
-    }
-
-    #full-service #product-boxes p {
-        font-size: 1rem;
-    }
-
-    /* Full Services List Ends */
-
-    /* Steps Start */
-    #steps .steps {
-        padding: 30px 0 90px;
-    }
-
-    #steps .steps-content .header {
-        font-size: 2rem;
-    }
-
-    /* Steps Under Line */
-    #steps .steps-content .underline {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    #steps .step-column h4 {
-        font-size: 1rem;
-    }
-
-    #steps .steps-btn {
-        padding: 0.6rem 1.4rem;
-        font-size: 1rem;
-    }
-
-    #steps .steps-btn .fas {
-        margin-left: 30px;
-    }
-
-    /* Steps End */
-
-    /* Location Starts */
-    #location .times-header {
-        font-size: 1.2rem;
-    }
-
-    /* Location Ends */
-
-    /* ABOUT PAGE STARTS */
-    #satisfaction .left-satisfaction .about-header {
-        font-size: 1.7rem;
-    }
-
-    #satisfaction .left-satisfaction p,
-    #satisfaction .right-satisfaction .over {
-        font-size: 1rem;
-    }
-
-    #satisfaction .right-satisfaction .counting {
-        font-size: 5rem;
-    }
-
-    #satisfaction .right-satisfaction .social li {
-        font-size: 2.5rem;
-    }
-
-    #pride .left-pride .customer-service {
-        font-size: 1.8rem;
-    }
-
-    #pride .left-pride .star {
-        font-size: 1rem;
-    }
-
-    #pride .left-pride .experience .years {
-        font-size: 1.6rem;
-    }
-
-    #pride .left-pride .experience span {
-        font-size: 0.9rem;
-    }
-
-    #pride .right-pride .values h3 {
-        font-size: 1rem;
-        margin-top: 1.5rem;
-    }
-
-    #pride .right-pride .values p {
-        font-size: 0.85rem;
-    }
-
-    #pride .right-pride .values .fas {
-        font-size: 2.5rem;
-    }
-
-    /* ABOUT PAGE EndS */
-
-    /* CONTACTS PAGE STARTS */
-    #customer-service-reps .service-header {
-        font-size: 1.7rem;
-    }
-
-    #customer-service-reps .service-underline {
-        width: 220px;
-    }
-
-    #customer-service-reps h3 {
-        font-size: 1.2rem;
-    }
-
-    #customer-service-reps p {
-        font-size: 0.9rem;
-    }
-
-    #contacts-form {
-        padding: 1.5rem 0;
-    }
-
-    #contacts-form form .contact-us {
-        font-size: 2.3rem;
-    }
-
-    #contacts-form form .contacts-underline {
-        width: 180px;
-        margin: 0 auto 1.8rem 0;
-    }
-
-    #contacts-form form input {
-        padding: 1rem 0.3rem;
-    }
-
-    #contacts-form form button {
-        font-size: 12px;
-    }
-
-    /* CONTACTS PAGE ENDS */
-
-    /* PRODUCTS PAGE STARTS */
-    #products-content .product-header {
-        font-size: 2rem;
-    }
-
-    #products-content .left-content .content-header {
-        font-size: 1.5rem;
-    }
-
-    #products-content .left-content .content-text {
-        font-size: 0.9rem;
-    }
-
-    #products-content .media-btn .content-btn {
-        padding: 0.6rem 1.4rem;
-        font-size: 1rem;
-    }
-
-    #products-content .media-btn .content-btn .fas {
-        margin-left: 30px;
-    }
-
-    #products-content .door-number {
-        display: none;
-     }
-    /* PRODUCTS PAGE ENDS */
-
-    /* FOOTER SECTION STARTS */
-    #footer .footer-top h3{
-     font-size: 1.5rem;
-    }
-
-    #footer .footer-top .about-header,  #footer .footer-top .contact-header{
-        font-size: 1rem;
-    }
-
-    #footer .footer-top .details li .fas {
-        padding: 0.29rem;
-    }
-
-    #footer .footer-top .contact .details li,  #footer .footer-top p,   #footer .footer-bottom p{
-        font-size: 0.9rem;
-    }
-
-    
-    /* FOOTER SECTION ENDS */
+  /* Header Section Starts */
+  #header .top-header .get-quote {
+    letter-spacing: 2px;
+    font-size: 18px;
+  }
+
+  #header .top-header .top-contents .contact-ways {
+    border-radius: 3px;
+    padding: 2px 8px 5px;
+  }
+
+  #header .top-header .contact-contents .contact-ways .fas {
+    font-size: 18px;
+  }
+
+  #header #nav-header .logo .fas {
+    font-size: 41px;
+  }
+
+  #header #nav-header .logo,
+  #header #nav-header .doors {
+    font-size: 15px;
+  }
+
+  #header #nav-header #menuItems ul li a {
+    font-size: 15px;
+  }
+
+  #header #nav-header button {
+    font-size: 15px;
+  }
+
+  /* Header Section Ends */
+
+  /* Home Pages Start*/
+  #about-home-page .about-top,
+  #contacts .contacts-top,
+  #products .products-top {
+    height: 350px;
+  }
+
+  #about-home-page .about-top h1,
+  #contacts .contacts-top h1,
+  #products h1 {
+    font-size: 2.7rem;
+  }
+
+  #consultation .consultation-message h1 {
+    font-size: 3rem;
+  }
+
+  #consultation .consultation-form {
+    margin: 2rem 0;
+  }
+
+  #consultation .consultation-form form .schedule {
+    font-size: 1.5rem;
+  }
+
+  #consultation .consultation-form form input {
+    padding: 1rem 0.3rem;
+  }
+
+  #consultation .consultation-form form button {
+    font-size: 10px;
+  }
+
+  /* Home Pages End*/
+
+  /* Full Services List Starts */
+  #full-service .service-content .header {
+    font-size: 2rem;
+  }
+
+  #full-service .service-content .underline {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #full-service .service-content .service-message {
+    font-size: 1rem;
+  }
+
+  #full-service .product-wrapper .our-products {
+    font-size: 2rem;
+  }
+
+  #full-service .product-wrapper .our-products .dash {
+    display: none;
+  }
+
+  #full-service .product-wrapper .product-btn {
+    padding: 0.6rem 1.4rem;
+    font-size: 1rem;
+  }
+
+  #full-service .product-wrapper .product-btn .fas {
+    margin-left: 30px;
+  }
+
+  #full-service #product-boxes h3 {
+    font-size: 25px;
+  }
+
+  #full-service #product-boxes p {
+    font-size: 1rem;
+  }
+
+  /* Full Services List Ends */
+
+  /* Steps Start */
+  #steps .steps {
+    padding: 30px 0 90px;
+  }
+
+  #steps .steps-content .header {
+    font-size: 2rem;
+  }
+
+  /* Steps Under Line */
+  #steps .steps-content .underline {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #steps .step-column h4 {
+    font-size: 1rem;
+  }
+
+  #steps .steps-btn {
+    padding: 0.6rem 1.4rem;
+    font-size: 1rem;
+  }
+
+  #steps .steps-btn .fas {
+    margin-left: 30px;
+  }
+
+  /* Steps End */
+
+  /* Location Starts */
+  #location .times-header {
+    font-size: 1.2rem;
+  }
+
+  /* Location Ends */
+
+  /* ABOUT PAGE STARTS */
+  #satisfaction .left-satisfaction .about-header {
+    font-size: 1.7rem;
+  }
+
+  #satisfaction .left-satisfaction p,
+  #satisfaction .right-satisfaction .over {
+    font-size: 1rem;
+  }
+
+  #satisfaction .right-satisfaction .counting {
+    font-size: 5rem;
+  }
+
+  #satisfaction .right-satisfaction .social li {
+    font-size: 2.5rem;
+  }
+
+  #pride .left-pride .customer-service {
+    font-size: 1.8rem;
+  }
+
+  #pride .left-pride .star {
+    font-size: 1rem;
+  }
+
+  #pride .left-pride .experience .years {
+    font-size: 1.6rem;
+  }
+
+  #pride .left-pride .experience span {
+    font-size: 0.9rem;
+  }
+
+  #pride .right-pride .values h3 {
+    font-size: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  #pride .right-pride .values p {
+    font-size: 0.85rem;
+  }
+
+  #pride .right-pride .values .fas {
+    font-size: 2.5rem;
+  }
+
+  /* ABOUT PAGE EndS */
+
+  /* CONTACTS PAGE STARTS */
+  #customer-service-reps .service-header {
+    font-size: 1.7rem;
+  }
+
+  #customer-service-reps .service-underline {
+    width: 220px;
+  }
+
+  #customer-service-reps h3 {
+    font-size: 1.2rem;
+  }
+
+  #customer-service-reps p {
+    font-size: 0.9rem;
+  }
+
+  #contacts-form {
+    padding: 1.5rem 0;
+  }
+
+  #contacts-form form .contact-us {
+    font-size: 2.3rem;
+  }
+
+  #contacts-form form .contacts-underline {
+    width: 180px;
+    margin: 0 auto 1.8rem 0;
+  }
+
+  #contacts-form form input {
+    padding: 1rem 0.3rem;
+  }
+
+  #contacts-form form button {
+    font-size: 12px;
+  }
+
+  /* CONTACTS PAGE ENDS */
+
+  /* PRODUCTS PAGE STARTS */
+  #products-content .product-header {
+    font-size: 2rem;
+  }
+
+  #products-content .left-content .content-header {
+    font-size: 1.5rem;
+  }
+
+  #products-content .left-content .content-text {
+    font-size: 0.9rem;
+  }
+
+  #products-content .media-btn .content-btn {
+    padding: 0.6rem 1.4rem;
+    font-size: 1rem;
+  }
+
+  #products-content .media-btn .content-btn .fas {
+    margin-left: 30px;
+  }
+
+  #products-content .door-number {
+    display: none;
+  }
+  /* PRODUCTS PAGE ENDS */
+
+  /* FOOTER SECTION STARTS */
+  #footer .footer-top h3 {
+    font-size: 1.5rem;
+  }
+
+  #footer .footer-top .about-header,
+  #footer .footer-top .contact-header {
+    font-size: 1rem;
+  }
+
+  #footer .footer-top .details li .fas {
+    padding: 0.29rem;
+  }
+
+  #footer .footer-top .contact .details li,
+  #footer .footer-top p,
+  #footer .footer-bottom p {
+    font-size: 0.9rem;
+  }
+
+  /* FOOTER SECTION ENDS */
 }
 
 @media screen and (max-width: 310px) {
-
-    /*CONTACT PAGE: CUSTOMER SERVICE REPS SECTION, CONTACTS-FORM SECTION */
-    #customer-service-reps .service-underline,
-    #contacts-form form .contacts-underline {
-        width: 100%;
-        margin: 0 auto;
-    }
+  /*CONTACT PAGE: CUSTOMER SERVICE REPS SECTION, CONTACTS-FORM SECTION */
+  #customer-service-reps .service-underline,
+  #contacts-form form .contacts-underline {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 1128px) {
-
-    /* Products Page */
-    #products {
-        background: url('../images/products/product_bg.jpg') repeat center center / contain;
-    }
-
+  /* Products Page */
+  #products {
+    background: url('../images/products/product_bg.jpg') repeat center center /
+      contain;
+  }
 }
 
 /* Media Queries End */
