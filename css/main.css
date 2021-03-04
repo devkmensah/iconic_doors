@@ -27,7 +27,8 @@ body {
 }
 
 .reveal-section,
-.contact-sections {
+.contact-sections,
+.footer-section {
   transition: transform 1s, opacity 1s;
 }
 
