@@ -17,6 +17,23 @@ const footerObserver = new IntersectionObserver(
     threshold: 0.14,
   }
 );
-
 footerObserver.observe(footerSection);
 footerSection.classList.add('unreveal');
+
+// 2... satisfied customer score count
+const counting = document.querySelector('.counting');
+let score = 0;
+counting.textContent = `${100}+`;
+
+(function () {
+  window.addEventListener('scroll', function (e) {
+    const timer = setInterval(() => {
+      counting.textContent = score;
+      if (score === 1000) {
+        clearInterval(timer);
+      } else {
+        score += 1;
+      }
+    }, 1);
+  });
+})();
