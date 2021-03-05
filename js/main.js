@@ -60,3 +60,5 @@ allSections.forEach(function (section) {
   sectionObserver.observe(section);
   section.classList.add('unreveal');
 });
+
+// 5... Forms validation

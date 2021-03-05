@@ -20,7 +20,7 @@ const footerObserver = new IntersectionObserver(
 footerObserver.observe(footerSection);
 footerSection.classList.add('unreveal');
 
-// 2... satisfied customer score count
+// 2... satisfied customers score count
 const counting = document.querySelector('.counting');
 let score = 0;
 counting.textContent = `${100}+`;
