@@ -62,3 +62,10 @@ allSections.forEach(function (section) {
 });
 
 // 5... Forms validation
+
+// const form = document.querySelector('#schedule-form');
+// console.log(form);
+
+// form.addEventListener('submit', function (e) {
+//   e.preventDefault();
+// });
