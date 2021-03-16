@@ -165,16 +165,14 @@ body {
 }
 
 #products {
-  /* background: url('../images/products/p15.png') repeat center center / contain; */
-  /* background: url('../images/products/external/p1.jpg') repeat center center / contain; */
   background: url('../images/products/product_bg.jpg') no-repeat center center /
     cover;
   position: relative;
 }
 
-#consultation::after,
-#about-home-page:after,
-#contacts:after {
+#consultation::before,
+#about-home-page::before,
+#contacts::before {
   content: '';
   position: absolute;
   background: rgba(0, 0, 0, 0.3);
@@ -185,7 +183,7 @@ body {
   right: 0;
 }
 
-#products:after {
+#products::before {
   content: '';
   position: absolute;
   background: rgba(0, 0, 0, 0.1);
