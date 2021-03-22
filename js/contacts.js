@@ -1,8 +1,9 @@
 /** @format */
 
 'use strict';
-
-// // 1... Reveal Sections on scroll for contact page
+/* ----------------------------------------------------------- */
+// REVEAL EACH SECTION ON SCROLL FOR CONTACT PAGE
+/* ----------------------------------------------------------- */
 const contactSections = document.querySelectorAll('.contact-sections');
 console.log(contactSections);
 

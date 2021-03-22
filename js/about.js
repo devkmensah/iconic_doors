@@ -1,7 +1,9 @@
 /** @format */
 
 'use strict';
-// // 1... Reveal footer section on scroll for about page
+/* ----------------------------------------------------------- */
+// 1. REVEAL FOOTER SECTION ON SCROLL FOR ABOUT PAGE
+/* ----------------------------------------------------------- */
 const footerSection = document.querySelector('.footer-section');
 console.log(footerSection);
 
@@ -20,7 +22,9 @@ const footerObserver = new IntersectionObserver(
 footerObserver.observe(footerSection);
 footerSection.classList.add('unreveal');
 
-// 2... satisfied customers score count
+/* ----------------------------------------------------------- */
+// 2. SATISFIED CUSTOMERS SCORE COUNT
+/* ----------------------------------------------------------- */
 const counting = document.querySelector('.counting');
 let score = 0;
 counting.textContent = `${100}+`;

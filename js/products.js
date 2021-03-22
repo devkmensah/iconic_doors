@@ -1,7 +1,9 @@
 /** @format */
 
 'use strict';
-// // 1... Reveal Sections on scroll for footer section
+/* ----------------------------------------------------------- */
+// 1. REVEAL SECTIONS ON SCROLL FOR FOOTER SECTION
+/* ----------------------------------------------------------- */
 const footerSection = document.querySelector('.footer-section');
 console.log(footerSection);
 

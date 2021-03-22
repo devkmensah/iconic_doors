@@ -545,11 +545,6 @@ body {
   font-size: 2rem;
 }
 
-/* #pride .left-pride .reputation {
-    color: var(--white);
-    font-size: 1.5rem;
-} */
-
 #pride .left-pride .experience {
   color: var(--white);
   text-transform: uppercase;
@@ -571,10 +566,6 @@ body {
   color: var(--green4);
   font-size: 3.2rem;
 }
-
-/* #pride .right-pride .top-row *{
-    z-index: 1;
-} */
 
 #pride .right-pride .values h3 {
   text-transform: uppercase;
